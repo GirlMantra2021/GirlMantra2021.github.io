@@ -1,0 +1,373 @@
+
+body{
+  background-color: #1B1D28;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h3{
+  font-size: 1rem;
+}
+
+p{
+  font-weight: 200;
+}
+
+.hero-header{
+  width: 60%;
+}
+
+.hero-header{
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-heading{
+  padding-bottom: 1rem;
+  font-family: 'Kanit', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1px;
+
+}
+
+.heading-subtext{
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.hero-subsection{
+  margin-top: 2rem;
+}
+
+.hero-video{
+  width: 70%;
+}
+
+.header-btn {
+  background-color: #FFDCF7;
+  color: #000000;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.course-snapshot{
+  width: 75%;
+  background-color: #FFFFFF;
+  border-radius: 26px;
+  color: #000000;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.9rem;
+
+}
+
+.snapshot-para{
+  font-weight: 400;
+}
+
+
+.proof-section{
+  width: 65%;
+  background-image: linear-gradient(#C9D1FF,#C9D1FF, #F3E0FF);
+  border-radius: 26px;
+  color: #393939;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.proof-text{
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.logos{
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.SWE-logo{
+  width: auto;
+  height:50px;
+}
+
+.DB-logo{
+  width: auto;
+  height:55px;
+}
+
+.Deloitte-logo{
+  width: auto;
+  height:35px;
+}
+
+.CU-logo{
+  width: auto;
+  height:40px;
+}
+
+.Ex-logo{
+  width: auto;
+  height:45px;
+}
+
+.vision-section{
+  display: none;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
+}
+
+.vision-text{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.support-section{
+  margin-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
+}
+
+.support-subheader{
+  color: #DBDBDB;
+  font-weight: 200;
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+
+}
+
+.support-para{
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  font-weight: 200;
+}
+
+
+.support-row{
+  text-align: left;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.support-image{
+  width: 100%;
+}
+
+.toolkit-section{
+  width: 70%;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toolkit-row{
+  margin-bottom: 2rem;
+}
+
+
+.toolkit-subtext{
+  margin-bottom: 3rem;
+}
+
+.toolkit-text{
+  padding-top: 0.5rem;
+  text-align: left;
+  font-weight: 200;
+  font-size: 1rem;
+
+}
+
+.tool-img{
+  width: 100%;
+  height: auto;
+}
+
+
+.testimonials-section{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  text-align: left;
+  width: 80%;
+}
+
+.testimonials-img{
+  width: 100%;
+}
+
+
+.test-row{
+  margin-top: 4rem;
+}
+
+
+.testimonials-heading{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-name{
+  font-style: italic;
+  font-weight: 200;
+}
+
+
+.syllabus-section{
+  width: 70%;
+  text-align: left;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.syllabus-subtext{
+  margin-bottom: 6rem;
+}
+
+.syllabus-row{
+  margin-bottom: 4rem;
+}
+
+.syllabus-col{
+  padding-top: 2rem;
+}
+
+.syl-acc-row{
+  margin-top: 2rem;
+}
+
+
+/**Instructor Bio**/
+
+.bio-sections{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  margin-top: 12rem;
+  text-align: left;
+  background-image: linear-gradient(#C9D1FF,#C9D1FF, #F3E0FF);
+  border-radius: 18px;
+  color: #000000;
+}
+
+.bio-image{
+  width: 100%;
+}
+
+.bio-copy{
+  width: 80%
+}
+
+.bio-subheader{
+  font-size: 0.8rem;
+}
+
+/**FAQ Section**/
+
+.faq-section{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  text-align: left;
+}
+
+.faq-header{
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+.card{
+background-color: #1B1D28;
+  border: 0;
+}
+.card-header{
+  font-weight: 400;
+  text-align: left;
+  font-size: 1rem;
+  border: 0;
+  color: #FFFFFF;
+}
+
+.summary-section{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 10rem;
+  text-align: left;
+  color:#000000;
+  background-color: #FFFFFF;
+}
+
+.summary-btn{
+  background-color: #FFDCF7;
+  color: #000000;
+  border-radius: 14px;
+  margin-top: 1rem;
+}
+
+
+
+@media (max-width: 900px) {
+
+  .hero-header{
+    width: 80%;
+  }
+
+  .hero-heading {
+    font-size: 32px;
+  }
+
+  .heading-subtext{
+    font-size: 0.8rem;
+  }
+
+  .support-section{
+    width: 70%;
+  }
+
+  .support-header{
+    font-size: 24px;
+  }
+
+  .testimonials-img{
+    width:100%;
+    height:auto;
+  }
+
+  .syllabus-section{
+    width:80%
+  }
+
+  .acc-image{
+    height: 50%;
+    width: auto;
+  }
+
+  .bio-text{
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+
+.summary-section{
+  padding-left: 2rem;
+}
+}
