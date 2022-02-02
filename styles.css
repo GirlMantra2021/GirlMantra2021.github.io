@@ -1,21 +1,29 @@
 
 body{
-  background-color: #1B1D28;
-  color: #FFFFFF;
+  background-color: #D4EDFA;
+  color: #000000;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  margin: auto;
 }
 
 h3{
   font-size: 1rem;
 }
 
+h4{
+  font-size: 1rem;
+}
+
 p{
+  font-size: 1rem;
   font-weight: 200;
 }
 
-.hero-header{
-  width: 60%;
+.hero-body{
+  width: 72%;
+  margin: auto;
+  margin-bottom: 2.5%;
 }
 
 .hero-header{
@@ -24,11 +32,17 @@ p{
   margin-right: auto;
 }
 
+.overline{
+  font-weight: 300;
+  margin: auto;
+  margin-bottom: 2.5%;
+  letter-spacing: 1.2px;
+}
+
 .hero-heading{
   padding-bottom: 1rem;
-  font-family: 'Kanit', sans-serif;
-  font-size: 50px;
-  font-weight: 300;
+  font-size: 3rem;;
+  font-weight: 500;
   letter-spacing: 1px;
 
 }
@@ -36,7 +50,8 @@ p{
 .heading-subtext{
   font-weight: 300;
   font-size: 1.1rem;
-  padding-bottom: 0.5rem;
+  width: 70%;
+  margin: auto;
 
 }
 
@@ -45,14 +60,18 @@ p{
 }
 
 .hero-video{
+  margin: auto;
   width: 70%;
 }
 
 .header-btn {
   background-color: #FFDCF7;
   color: #000000;
+  margin: auto;
   margin-bottom: 1rem;
-  border-radius: 10px;
+  border-radius: 24px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .course-snapshot{
@@ -63,6 +82,8 @@ p{
   padding-top: 2.5rem;
   padding-bottom: 1.5rem;
   font-size: 0.9rem;
+  margin: auto;
+  justify-content: space-between;
 
 }
 
@@ -71,6 +92,8 @@ p{
 }
 
 
+/* Proof Section */
+/*
 .proof-section{
   width: 65%;
   background-image: linear-gradient(#C9D1FF,#C9D1FF, #F3E0FF);
@@ -117,31 +140,32 @@ p{
 .Ex-logo{
   width: auto;
   height:45px;
-}
+} */
 
-.vision-section{
-  display: none;
-  margin-top: 8rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%
-}
-
-.vision-text{
-  margin-top: 1rem;
-  font-size: 1.1rem;
-  font-weight: 200;
-}
+/*Support Section*/
 
 .support-section{
   margin-top: 12rem;
   margin-left: auto;
   margin-right: auto;
-  width: 60%
+}
+
+.support-topcopy{
+  width: 70%;
+  margin: auto;
+}
+
+
+.support-section .overline{
+  margin-bottom: 1%;
+}
+
+.support-header{
+  background-color: #FFDCF7;
+  border-radius: 14px;
 }
 
 .support-subheader{
-  color: #DBDBDB;
   font-weight: 200;
   padding-bottom: 0.5rem;
   font-size: 0.9rem;
@@ -150,8 +174,10 @@ p{
 
 .support-para{
   font-size: 1rem;
-  margin-top: 1.5rem;
   font-weight: 200;
+  width:70%;
+  margin:auto;
+  margin-top: 1.5rem;
 }
 
 
@@ -166,6 +192,15 @@ p{
 .support-image{
   width: 100%;
 }
+
+.support-text{
+  padding-top: 3%;
+  width: 90%;
+  padding-bottom: 3%;
+}
+
+
+
 
 .toolkit-section{
   width: 70%;
@@ -196,6 +231,7 @@ p{
   height: auto;
 }
 
+/*testimonial-section*/
 
 .testimonials-section{
   margin-left: auto;
@@ -211,7 +247,7 @@ p{
 
 
 .test-row{
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 
@@ -226,17 +262,31 @@ p{
 }
 
 
+/* Syllabus Section */
+
 .syllabus-section{
   width: 70%;
-  text-align: left;
   margin-top: 10rem;
   margin-left: auto;
   margin-right: auto;
+  border: solid;
+  border-radius: 14px;
+  border-width:thin;
 }
 
+.syllabus-toptext{
+  padding-top: 3%;
+}
 
 .syllabus-subtext{
+  margin:auto;
   margin-bottom: 6rem;
+  width: 60%;
+
+}
+
+.syllabus-box{
+  text-align: left;
 }
 
 .syllabus-row{
@@ -247,26 +297,79 @@ p{
   padding-top: 2rem;
 }
 
+.syllabus-image{
+  padding-left: 3%;
+}
+
 .syl-acc-row{
   margin-top: 2rem;
 }
 
+/*Bonus Section*/
+.bonus-section{
+  margin-top: 10%;
+
+
+}
+
+.container-1{
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.bonus{
+  display: flex;
+  width: 20vw;
+  height: 20vh;
+  background-color: #F3F3F3;
+  border-radius: 14px;
+  margin-left: 2%;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-width: thin;
+}
+
+.bonus-heading{
+  background-color: #FFDCF7;
+  border-radius: 14px;
+  width: 50%;
+  margin:auto;
+}
+
+.bonus-heading-box{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.bonus-header{
+  width:60%;
+  text-align: center;
+}
 
 /**Instructor Bio**/
 
 .bio-sections{
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
   width:80%;
   margin-top: 12rem;
   text-align: left;
-  background-image: linear-gradient(#C9D1FF,#C9D1FF, #F3E0FF);
+  background-image: linear-gradient(#FFFAE2, #D4EDFA);
   border-radius: 18px;
   color: #000000;
+  border: solid;
+  border-width: thin;
 }
 
 .bio-image{
   width: 100%;
+  border-radius: 18px 0 0 18px;
 }
 
 .bio-copy{
@@ -285,12 +388,10 @@ p{
   width:80%;
   margin-left: auto;
   margin-right: auto;
-  color: #000000;
   text-align: left;
 }
 
 .faq-header{
-  color: #FFFFFF;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -317,50 +418,70 @@ background-color: #1B1D28;
   background-color: #FFFFFF;
 }
 
-.summary-btn{
-  background-color: #FFDCF7;
-  color: #000000;
-  border-radius: 14px;
+.summary-section .header-btn {
   margin-top: 1rem;
 }
 
-
-
 @media (max-width: 900px) {
+
+
+  p{
+    font-size: 0.9rem;
+  }
 
   .hero-header{
     width: 80%;
   }
 
   .hero-heading {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .heading-subtext{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    width: 100%;
   }
 
   .support-section{
-    width: 70%;
+    margin-top: 7rem;
+  }
+
+  .support-topcopy{
+    width:80%;
+  }
+
+  .support-para{
+    font-size: 0.9rem;
   }
 
   .support-header{
     font-size: 24px;
   }
 
-  .testimonials-img{
-    width:100%;
-    height:auto;
+  .support-text{
+    width: 100%;
   }
+
 
   .syllabus-section{
     width:80%
   }
 
-  .acc-image{
-    height: 50%;
-    width: auto;
+  .bonus-section{
+    margin-top: 20%;
   }
+
+  .container-1{
+    flex-direction: column;
+  }
+
+
+  .bonus{
+    width: 50vw;
+    height: 18vh;
+    margin-bottom:5%;
+  }
+
 
   .bio-text{
     padding-top: 2rem;
@@ -371,3 +492,54 @@ background-color: #1B1D28;
   padding-left: 2rem;
 }
 }
+
+
+
+/* <div class="proof-section">
+  <p class="proof-text">Past clients from companies that include</p>
+  <div class="logos row">
+    <div class="col-sm">
+      <img class="CU-logo" src="images/CU.png" alt="">
+    </div>
+    <div class="col-sm">
+      <img class="DB-logo" src="images/DB.png" alt="">
+    </div>
+    <div class="col-sm">
+      <img class="Deloitte-logo" src="images/Deloitte.png" alt="">
+    </div>
+    <div class="col-sm">
+      <img class="SWE-logo" src="images/SWE.png" alt="">
+    </div>
+    <div class="col-sm">
+      <img class="Ex-logo" src="images/Exxon.png" alt="">
+    </div>
+  </div>
+</div> */
+
+/* Accordion Section */
+
+/* <div class="accordion" id="accordionSyllabus">
+  <div class="card">
+    <button class="card-header collapsed card-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+      Show Details
+      <i class=" fas fa-plus float-right "></i>
+    </button>
+    <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero" data-bs-parent="#accordionSyllabus">
+      <div class="accordion-body">
+        <div class="container">
+          <div class="syl-acc-row row">
+            <div class="col-lg-3">
+              <img class="acc-image" src="images/thumbnail.png" alt="">
+            </div>
+            <div class="col-lg">
+              <p class="acc-text">Day 0: Kickoff Event: Finding Balance</p>
+            </div>
+            <div class="col-lg-2">
+              <p>Day 0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> */
