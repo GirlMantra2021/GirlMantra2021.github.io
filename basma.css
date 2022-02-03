@@ -1,0 +1,614 @@
+
+body{
+  background-color: #D4EDFA;
+  color: #000000;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
+}
+
+h3{
+  font-size: 1rem;
+}
+
+h4{
+  font-size: 1rem;
+}
+
+p{
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.hero-body{
+  width: 72%;
+  margin: auto;
+  margin-bottom: 2.5%;
+}
+
+.hero-header{
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overline{
+  font-weight: 300;
+  margin: auto;
+  margin-bottom: 2.5%;
+  letter-spacing: 1.2px;
+}
+
+.hero-heading{
+  font-family: 'Merriweather', serif;
+  padding-bottom: 1rem;
+  font-size: 3rem;;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+}
+
+.heading-subtext{
+  font-weight: 300;
+  font-size: 1.1rem;
+  width: 70%;
+  margin: auto;
+
+}
+
+.hero-subsection{
+  margin-top: 2rem;
+}
+
+.hero-video{
+  margin: auto;
+  width: 70%;
+}
+
+.header-btn {
+  background-color: #FFDCF7;
+  color: #000000;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 24px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.course-snapshot{
+  width: 75%;
+  background-color: #FFFFFF;
+  border-radius: 26px;
+  color: #000000;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 0.9rem;
+  margin: auto;
+  justify-content: space-between;
+
+}
+
+.snapshot-para{
+  font-weight: 400;
+}
+
+
+/* Proof Section */
+/*
+.proof-section{
+  width: 65%;
+  background-image: linear-gradient(#C9D1FF,#C9D1FF, #F3E0FF);
+  border-radius: 26px;
+  color: #393939;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.proof-text{
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+
+.logos{
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.SWE-logo{
+  width: auto;
+  height:50px;
+}
+
+.DB-logo{
+  width: auto;
+  height:55px;
+}
+
+.Deloitte-logo{
+  width: auto;
+  height:35px;
+}
+
+.CU-logo{
+  width: auto;
+  height:40px;
+}
+
+.Ex-logo{
+  width: auto;
+  height:45px;
+} */
+
+/*Support Section*/
+
+.support-section{
+  margin-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.support-topcopy{
+  width: 70%;
+  margin: auto;
+}
+
+
+.support-section .overline{
+  margin-bottom: 1%;
+}
+
+.support-header{
+  background-color: #FFDCF7;
+  border-radius: 14px;
+}
+
+.support-subheader{
+  font-weight: 200;
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+
+}
+
+.support-para{
+  font-size: 1rem;
+  font-weight: 200;
+  width:70%;
+  margin:auto;
+  margin-top: 1.5rem;
+}
+
+
+.support-row{
+  text-align: left;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.support-image{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.support-text{
+  padding-top: 3%;
+  width: 90%;
+  padding-bottom: 3%;
+}
+
+
+
+
+.toolkit-section{
+  width: 70%;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toolkit-row{
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.toolkit-subtext{
+  margin-bottom: 3rem;
+}
+
+.toolkit-text{
+  padding-top: 0.5rem;
+  text-align: left;
+  font-weight: 200;
+  font-size: 1rem;
+
+}
+
+.tool-img{
+  width: 100%;
+  height: auto;
+}
+
+/*testimonial-section*/
+
+/* Testimonials section */
+
+
+.testimonials-section{
+  background-image: linear-gradient(#B9CDDF, #C4B3B5, #DB825E);
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.carousel-inner{
+  height: 240px;
+}
+
+.carousel-item{
+  padding-bottom: 5%;
+}
+
+
+.carousel-indicators{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  margin: auto;
+
+}
+
+.test-header{
+  margin-bottom: 5%;
+}
+
+
+.test-text{
+  font-size: 1.5rem;
+  margin: auto;
+  width: 60%;
+}
+
+.testimonial-button{
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  height:4.5vh;
+  width:12%;
+  border-radius: 12px;
+}
+
+
+/* Syllabus Section */
+
+.syllabus-section{
+  width: 60%;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  border-radius: 14px;
+  border-width:thin;
+}
+
+.syllabus-toptext{
+  padding-top: 3%;
+  /* margin-bottom: 8%; */
+}
+
+.syllabus-subtext{
+  margin:auto;
+  width: 60%;
+
+}
+
+.syllabus-box{
+  text-align: left;
+}
+
+.syllabus-row{
+  margin-bottom: 2rem;
+  /* justify-content: center; */
+  /* align-items:center; */
+}
+
+.syll-col-text{
+  margin-left:10%;
+  width: 80%;
+}
+
+/*Bonus Section*/
+.bonus-section{
+  margin-top: 10%;
+
+
+}
+
+.container-1{
+  padding-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.bonus{
+  display: flex;
+  width: 20vw;
+  height: 20vh;
+  background-color: #F3F3F3;
+  border-radius: 14px;
+  margin-left: 2%;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+  border-image: repeating-linear-gradient(#C9D1FF, #C9D1FF, #F3E0FF) 60;
+}
+
+.bonus-heading{
+  background-color: #FFDCF7;
+  /* border-radius: 14px; */
+  width: 30%;
+  margin:auto;
+}
+
+.bonus-heading-box{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.bonus-header{
+  width:60%;
+  text-align: center;
+}
+
+
+/*Audience Section */
+.audience-section {
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  width: 80%;
+}
+
+.audience-header {
+  margin-bottom: 3%;
+}
+
+.audience-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.audience-type {
+  flex: 1 1 0;
+  background-color: #FFFFFF;
+  border: 5px solid;
+  border-image: repeating-linear-gradient(#C9D1FF, #C9D1FF, #F3E0FF) 60;
+  border-radius: 14px;
+  color: #000000;
+  margin: 1%;
+}
+
+.audience-copy {
+  padding-left: 8%;
+  padding-right: 8%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/**Instructor Bio**/
+
+.bio-sections{
+  padding: 0;
+  width:80%;
+  margin-top: 12rem;
+  text-align: left;
+  background-image: linear-gradient(#FFFAE2, #D4EDFA);
+  border-radius: 18px;
+  color: #000000;
+  border: solid;
+  border-width: thin;
+}
+
+.bio-image{
+  width: 100%;
+  border-radius: 18px 0 0 18px;
+}
+
+.bio-copy{
+  width: 80%
+}
+
+.bio-subheader{
+  font-size: 0.8rem;
+}
+
+/**FAQ Section**/
+
+.faq-section{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.faq-header{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+.card{
+background-color: #1B1D28;
+  border: 0;
+}
+.card-header{
+  font-weight: 400;
+  text-align: left;
+  font-size: 1rem;
+  border: 0;
+  color: #FFFFFF;
+}
+
+
+.summary-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 10rem;
+  text-align: left;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+/*
+.summary-header{
+  width:70%;
+} */
+
+.summary-box {
+  display: flex;
+}
+
+.summary-text {
+  padding: 2%;
+
+  /* width: 30%; */
+  border-radius: 14px;
+  background-image: linear-gradient(#C9D1FF, #C9D1FF, #F3E0FF);
+}
+
+.summary-cta {
+  margin-left: 2%;
+}
+
+.cta-text {
+  border: 5px solid;
+  border-image: repeating-linear-gradient(#C9D1FF, #C9D1FF, #F3E0FF) 60;
+}
+
+.cta-copy{
+  margin: 20px;
+}
+
+
+.summary-btn {
+  background-color: #FFDCF7;
+  color: #000000;
+  border-radius: 14px;
+  margin-top: 1rem;
+}
+
+
+@media (max-width: 900px) {
+
+
+  p{
+    font-size: 0.9rem;
+  }
+
+  .hero-header{
+    width: 80%;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .heading-subtext{
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .support-section{
+    margin-top: 7rem;
+  }
+
+  .support-topcopy{
+    width:80%;
+  }
+
+  .support-para{
+    font-size: 0.9rem;
+  }
+
+  .support-header{
+    font-size: 24px;
+  }
+
+  .support-text{
+    width: 100%;
+  }
+
+
+  .syllabus-section{
+    width:80%
+  }
+
+  .bonus-section{
+    margin-top: 20%;
+  }
+
+  .container-1{
+    flex-direction: column;
+  }
+
+
+  .test-text{
+    font-size: 1rem;
+  }
+
+  .testimonial-button{
+    width: 30%;
+  }
+
+  .audience-box{
+  flex-direction: column;
+}
+
+  .bonus{
+    width: 50vw;
+    height: 18vh;
+    margin-bottom:5%;
+  }
+
+
+  .bio-text{
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+
+    .summary-section {
+      padding-left: 2rem;
+    }
+
+    .summary-box {
+      flex-direction: column;
+      width:80%;
+    }
+
+    .summary-text {
+      margin-top: 3%;
+      width:100%;
+      order: 2;
+    }
+
+    .summary-cta {
+      order: 1;
+    }
+}
