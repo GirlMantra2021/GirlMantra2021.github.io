@@ -1,0 +1,235 @@
+/* @media only screen and (max-device-width: 480px){ */
+    .mhero-bottom{
+        margin-bottom: 1rem;
+    }
+    .container-carousel{
+      padding: 40px;
+      padding-bottom: 127px;
+    }
+    .course-snapshot{
+      width: 60%;
+      padding-top: 1.5rem;
+      padding-bottom: 0rem;
+    }
+  
+    #bonus{
+      padding: 15% 0 28%;
+    }
+  
+    .rmar{
+      margin-left: 16px;
+    }
+  
+    .padding-2{
+      padding-left: 125px;
+      padding-right: 112px;
+    }
+  
+    .p{
+      margin-bottom: 3rem;
+    }
+  
+    .padding-3{
+      padding-left: 127px;
+      padding-right: 125px;
+    }
+  
+    .padding-20{
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+  
+    .padding-lr{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .padding-30{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  
+  
+    .lmar{
+      margin-left: 100px;
+      margin-right: 0;
+    }
+  
+    .bonus{
+      width: 34vw;
+      height: 12vh;
+      margin-right: 0;
+      margin-left: 2%;
+    }
+  
+    .bonus-heading-box{
+      margin-bottom: 100px;
+    }
+  
+    .bio-subheader{
+      padding-top: 5%;
+    }
+  
+    .pd{
+      margin-top: 3%;
+    }
+  
+    .toolkit-section{
+      width: 80%;
+    }
+  
+    .toolkit-heading{
+      font-size: 3rem;
+      line-height: 70px;
+    }
+  
+    .syllabus-section{
+      width: 100%;
+    }
+  
+    .syllabus-image{
+      padding-left: 12%;
+    }
+    .hero-heading{
+      font-size: 5rem;
+    }
+    .heading-subtext{
+      font-size: 2.5rem;
+      width: 90%;
+      line-height: 70px;
+    }
+    .hero-video {
+      width: 88%;
+   }
+  
+    h4{
+      font-size: 2rem;
+    }
+    .header-btn{
+      font-size: 2.5rem;
+    }
+    .header-btn1{
+      font-size: 2.5rem;
+    }
+    p{
+      font-size: 1.7rem;
+      margin-bottom: 2.5rem;
+    }
+    #introduction{
+      padding: 1% 0 27%;
+    }
+    .support-header{
+      line-height: 70px;
+      width: 91%;
+    }
+    .support-subheader{
+      font-size: 2rem;
+    }
+    .support-image {
+      height: auto;
+      width: 109%;
+      position: relative;
+      right: 28px;
+    }
+    .support-para{
+      width: 85%;
+      font-size: 2.5rem;
+      line-height: 70px;
+    }
+  
+    .support-text{
+      width: 100%;
+      margin-bottom: 140px;
+    }
+   
+    .fsize{
+      font-size: 3rem;
+      min-width: 900px;
+      margin-left: -61px;
+  
+    }
+  
+    .psize{
+      font-size: 2.5rem;
+      min-width: 863px;
+      margin-left: -59px;
+      line-height: 70px;
+    }
+  
+    .fs1rem{
+      font-size: 2.5rem;
+      line-height: 70px;
+    }
+  
+    .bonus-heading{
+      width: 70%;
+    }
+    .toolkit-text{
+      font-size: 2rem;
+    }
+    .syllabus-subtext{
+        font-size: 2.5rem;
+        width: 80%;
+        min-width: -webkit-fill-available;
+        line-height: 70px;
+    }
+    .course-text{
+      font-size: 2.5rem;
+    }
+  
+    .calender-size{
+      margin-left: -8px;
+      height: 192px;
+    }
+    .calender-size2{
+      margin-left: -8px;
+      height: 192px;
+    }
+    .bonus-header{
+      width: 100%;
+      padding: 2%;
+    }
+    .bio-subheader{
+      font-size: 3rem;
+    }
+    .bio-sections{
+      position: relative;
+      left: 5px;
+      min-width: 879px;
+    }
+    .bio-copy{
+      margin-top: 50px;
+    }
+    .faq-header{
+      font-size: 3rem;
+    }
+    .summary-width{
+      width: 100%;
+    }
+    .faq{
+      margin-top: 410px;
+      margin-bottom: 410px;
+    }
+    #summary{
+      padding: 40% 0% 30%;
+    }
+    #course-plan {
+      padding: 15% 0 30%;
+    }
+    #chapter2{
+      padding: 15% 0 7%;
+    }
+    #testimonials {
+      padding: 0 5% 25%;
+    }
+    .ord2{
+      order: 1;
+    }
+    .ord1{
+      order: 2;
+    }
+    .navbar-brand{
+      font-size: 2.7rem;
+    }
+  /* } */
+  
