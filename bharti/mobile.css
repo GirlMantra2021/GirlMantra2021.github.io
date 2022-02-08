@@ -1,23 +1,28 @@
 /* @media only screen and (max-device-width: 480px){ */
-    .mhero-bottom{
-        margin-bottom: 1rem;
+    .mhero-bottom {
+    margin-bottom: 3rem;
     }
     .container-carousel{
       padding: 40px;
       padding-bottom: 127px;
     }
     .course-snapshot{
-      width: 60%;
+      width: 65%;
       padding-top: 1.5rem;
       padding-bottom: 0rem;
     }
-  
+    
+    .snapshot-para{
+      font-size: 1.8rem;
+    }
     #bonus{
       padding: 15% 0 28%;
     }
   
     .rmar{
       margin-left: 16px;
+      padding-left: 20px;
+      padding-right: 33px;
     }
   
     .padding-2{
@@ -48,15 +53,26 @@
       padding-right: 10px;
       padding-left: 10px;
     }
-  
+    
+    .v-style{
+      width: 85%;
+    }
   
     .lmar{
       margin-left: 100px;
       margin-right: 0;
+      margin-bottom: 50px;
+    }
+
+    .pdd{
+      margin-bottom: 43px;
+    }
+    .pd2{
+      margin-bottom: 20px;
     }
   
     .bonus{
-      width: 34vw;
+      width: 68vw;
       height: 12vh;
       margin-right: 0;
       margin-left: 2%;
@@ -85,6 +101,11 @@
   
     .syllabus-section{
       width: 100%;
+      margin-left: 80px;
+    }
+
+    .container{
+      max-width: 830px;
     }
   
     .syllabus-image{
@@ -92,6 +113,8 @@
     }
     .hero-heading{
       font-size: 5rem;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .heading-subtext{
       font-size: 2.5rem;
@@ -116,7 +139,7 @@
       margin-bottom: 2.5rem;
     }
     #introduction{
-      padding: 1% 0 27%;
+      padding: 15% 0 27%;
     }
     .support-header{
       line-height: 70px;
@@ -136,7 +159,16 @@
       font-size: 2.5rem;
       line-height: 70px;
     }
-  
+    
+    .ml{
+      position: relative;
+      right: 30px;
+    }
+    .mr{
+      position: relative;
+      left: 30px;
+    }
+
     .support-text{
       width: 100%;
       margin-bottom: 140px;
@@ -157,12 +189,12 @@
     }
   
     .fs1rem{
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       line-height: 70px;
     }
   
     .bonus-heading{
-      width: 70%;
+      width: 97%;
     }
     .toolkit-text{
       font-size: 2rem;
@@ -172,6 +204,8 @@
         width: 80%;
         min-width: -webkit-fill-available;
         line-height: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .course-text{
       font-size: 2.5rem;
@@ -199,6 +233,7 @@
     }
     .bio-copy{
       margin-top: 50px;
+      min-width: 830px;
     }
     .faq-header{
       font-size: 3rem;

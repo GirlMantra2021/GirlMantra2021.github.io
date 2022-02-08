@@ -9,6 +9,10 @@ body{
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
+.v-style{
+width: 65%; 
+justify-content: center;
+}
 /* play button */
 .wrapper {
   position: relative;
