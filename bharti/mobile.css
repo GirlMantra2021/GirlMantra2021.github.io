@@ -1,6 +1,32 @@
 /* @media only screen and (max-device-width: 480px){ */
+    
+    /* bonus section */
+    .container-bonus {
+    max-width: 100%;
+    padding: 0 4%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    .points{
+    width: 100%;
+    border-left: 0px !important;
+    border-bottom: 1px solid rgba(0,0,0,0.08) !important;
+    padding: 25px 15px 20px 30px;
+    }
+
+    .optionPoints {
+      margin-top: 30px;
+    }
+    .pointTitle{
+      font-weight: 500;
+      font-size: 2.5rem;
+      line-height: 69px;
+      margin-bottom: 120px;
+    }
+    /* bonus ends */
+  
     .mhero-bottom {
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     }
     .container-carousel{
       padding: 40px;
@@ -10,11 +36,22 @@
       width: 65%;
       padding-top: 1.5rem;
       padding-bottom: 0rem;
+      width: 86%;
+      margin-top: 72px;
     }
     
     .snapshot-para{
-      font-size: 1.8rem;
+      font-size: 2.2rem;
+      margin-bottom: 24px;
     }
+
+    .w{
+      width: 56%;
+      /* justify-content: center; */
+      margin-left: 178px;
+      line-height: 1.35;
+    }
+
     #bonus{
       padding: 15% 0 28%;
     }
@@ -85,7 +122,15 @@
     .bio-subheader{
       padding-top: 5%;
     }
-  
+    .mbtop{
+      margin-top: 36px;
+    }
+
+    .t-text{
+      font-size: 2rem;
+      line-height: 1.35;
+    }
+
     .pd{
       margin-top: 3%;
     }
@@ -96,12 +141,15 @@
   
     .toolkit-heading{
       font-size: 3rem;
-      line-height: 70px;
+      line-height: 1.35;
     }
   
     .syllabus-section{
       width: 100%;
       margin-left: 80px;
+    }
+    .overline{
+      margin-bottom: 36px !important;
     }
 
     .container{
@@ -112,30 +160,60 @@
       padding-left: 12%;
     }
     .hero-heading{
-      font-size: 5rem;
+      font-size: 4.2rem;
       margin-left: 20px;
       margin-right: 20px;
     }
     .heading-subtext{
       font-size: 2.5rem;
-      width: 90%;
-      line-height: 70px;
+      width: 85%;
+      line-height: 1.5;
+      margin-bottom: 72px;
+      margin-top: 36px;
     }
     .hero-video {
       width: 88%;
+   }
+
+   .wmt{
+     padding-top: 44px;
+   }
+
+   .wmb{
+     padding-bottom: 16px;
    }
   
     h4{
       font-size: 2rem;
     }
+
+    .pm{
+      position: inherit;
+    }
+    .pm2{
+      position: relative;
+      left: 368px;
+    }
+    .card-summ{
+      width: 100%;
+    }
+    .s-text{
+      font-size: 2.5rem !important;
+    }
+
     .header-btn{
       font-size: 2.5rem;
+      width: 484px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-radius: 200rem 200rem;
+      margin-bottom: 88px;
     }
     .header-btn1{
-      font-size: 2.5rem;
+      font-size: 2.5rem !important;
     }
     p{
-      font-size: 1.7rem;
+      font-size: 2.5rem;
       margin-bottom: 2.5rem;
     }
     #introduction{
@@ -144,20 +222,21 @@
     .support-header{
       line-height: 70px;
       width: 91%;
+      margin-bottom: 36px;
     }
     .support-subheader{
       font-size: 2rem;
     }
     .support-image {
       height: auto;
-      width: 109%;
+      width: 113%;
       position: relative;
-      right: 28px;
+      right: 58px;
     }
     .support-para{
       width: 85%;
       font-size: 2.5rem;
-      line-height: 70px;
+      line-height: 1.35;
     }
     
     .ml{
@@ -178,26 +257,28 @@
       font-size: 3rem;
       min-width: 900px;
       margin-left: -61px;
+      margin-bottom: 16px;
   
     }
   
     .psize{
-      font-size: 2.5rem;
-      min-width: 863px;
+      font-size: 2.3rem;
+      min-width: 801px;
       margin-left: -59px;
-      line-height: 70px;
+      line-height: 1.35;
     }
   
     .fs1rem{
-      font-size: 2.3rem;
-      line-height: 70px;
+      font-size: 2.5rem;
+      line-height: 1.35;
     }
   
     .bonus-heading{
       width: 97%;
     }
     .toolkit-text{
-      font-size: 2rem;
+      font-size: 2.2rem;
+      line-height: 1.35;
     }
     .syllabus-subtext{
         font-size: 2.5rem;
@@ -250,6 +331,9 @@
     }
     #course-plan {
       padding: 15% 0 30%;
+    }
+    #chapter1{
+      padding: 10% 0 17%;
     }
     #chapter2{
       padding: 15% 0 7%;

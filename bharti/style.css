@@ -44,10 +44,11 @@ justify-content: center;
   font-size: 50px;
   cursor: pointer;
   border: 2px solid #FFF;
-  border-radius: 2rem;
+  border-radius: 200rem;
+  height: 100px;
   display: inline-block;
   text-align: center;
-  padding: 5px 25px;
+  padding: 8px 24px;
 }
 
 .play:hover {
@@ -57,8 +58,8 @@ justify-content: center;
 
 #introduction
 {
-  background-color: #39C3EA;
-  color: #FFF;
+  background-color: #d4fad6;
+  color: #000;
   padding: 7% 0 11%;
 }
 
@@ -70,22 +71,66 @@ justify-content: center;
 
 #chapter2
 {
-  background-color: #4987B2;
+  background-color: #d4fad6;
   padding: 11% 0 7%;
-  color: #FFF
+  color: #000000
 }
 
 #testimonials
 {
   padding: 0 5% 7%;
-  background-color: #4987B2;
+  background-color: #d4fad6;
+}
+/* bonus section  */
+#bonus{
+  padding: 6% 0;
+  background-color: #f7b42c;
+  background-image: linear-gradient(
+315deg
+, #f7b42c 0%, #fc575e 74%);
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+  position: relative;
 }
 
-#bonus{
-  background-color: #8F6EB0;
-  padding: 3% 0 14%;
-  color: #FFF
+.optionPoints {
+  background-color: rgba(0,0,0,0.05);
+  margin-top: 5%;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 6px;
 }
+.points{
+  width: 33%;
+  padding: 40px 27px 35px 45px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  border-left: 1px solid rgba(0,0,0,0.08);
+  text-align: left;
+}
+.pointTitle{
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 13px;
+  color: white;
+}
+.pointDesc{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255,255,255,0.75);
+}
+.container-bonus{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* bonus ends */
 
 #course-plan
 {
@@ -124,7 +169,7 @@ h4{
   margin-bottom: 1.5rem;
 }
 p{
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
@@ -145,14 +190,19 @@ p{
   margin: auto;
   margin-bottom: -32px;
   letter-spacing: 1.2px;
+  margin-bottom: -8.5px;
 }
 
 .hero-heading{
-  padding-bottom: 1rem;
+  padding-bottom: -4rem;
   font-size: 2.7rem;;
   font-weight: 500;
   letter-spacing: 1px;
 
+}
+
+.vid-bottom{
+  font-weight: 600 !important;
 }
 
 .marbottom{
@@ -178,20 +228,33 @@ p{
   width: 70%;
 }
 
+.p-btn{
+  margin-bottom: 36px;
+}
+
+.pad-left{
+  padding-left: 40px;
+}
+
+.s-text{
+  font-size: 1.5rem !important; 
+  padding-left: 47px !important;
+}
+
 .header-btn {
-  font-size: 1.5rem;
-  background-color: #FFDCF7;
+  font-size: 1.2rem;
+  background-color: #fbf3fa;
   color: #000000ba;
   margin: auto;
   margin-bottom: 1rem;
   border-radius: 24px;
   padding-left: 4%;
   padding-right: 4%;
-  border-color:#FFDCF7;
+  border-color:#000000;
 }
 .header-btn1 {
-  font-size: 1.5rem;
-  background-color: #FFDCF7;
+  font-size: 1.2rem !important;
+  background-color: #fbf3fa;
   color: #000000ba;
   margin: auto;
   margin-bottom: 1rem;
@@ -200,7 +263,7 @@ p{
   padding-right: 4%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
-  border-color:#FFDCF7;
+  border-color:#000000;
 }
 
 .course-snapshot{
@@ -218,9 +281,9 @@ p{
 
 .snapshot-para{
   font-weight: 400;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
   margin-top: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 
@@ -247,7 +310,7 @@ p{
 }
 
 .support-header{
-  background-color: #FFDCF7;
+  background-color: #d4fad6;
   border-radius: 14px;
   width: 70%;
     margin: auto;
@@ -267,10 +330,11 @@ p{
   margin:auto;
   margin-top: 1.5rem;
   margin-bottom: 9rem;
+  line-height: 1.45;
 }
 
 .fw500{
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .support-row{
@@ -320,6 +384,7 @@ p{
   text-align: left;
   font-weight: 500;
   font-size: 24px;
+  margin-bottom: 8px;
 
 }
 
@@ -330,10 +395,14 @@ p{
 
 .fs1rem{
   font-size: 1.2rem;
+  line-height: 1.35;
 }
 .course-text{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  /* background: pink;
+  border-radius: 0.4rem;
+  margin-right: 95px; */
 }
 
 /*testimonial-section*/
@@ -386,7 +455,8 @@ p{
 .syllabus-subtext{
   margin:auto;
   margin-bottom: 3rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  line-height: 1.35;
   font-weight: 400;
   width: 60%;
 
@@ -428,6 +498,10 @@ p{
   flex-wrap: wrap;
 }
 
+.abc{
+  margin-top: 40px;
+}
+
 
 .bonus{
   display: flex;
@@ -436,8 +510,8 @@ p{
   height: 20vh;
   background-color: #F3F3F3;
   border-radius: 14px;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
   /* margin-left: 2%;
   margin-right: 6%; */
   color: #000000;
@@ -445,11 +519,20 @@ p{
   justify-content: center;
   align-items: center;
   /* border: solid; */
-  border-width: thin;
+  /* border-width: thin; */
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
 
 .bonus-heading{
-  background-color: orange;
+  /* background-color: orange; */
+  color: #000;
   border-radius: 14px;
   width: 50%;
   margin:auto;
@@ -457,6 +540,7 @@ p{
 
 .bonus-heading-box{
   padding-top: 1%;
+  color: white;
   padding-bottom: 1%;
   margin-bottom: 55px;
 }
@@ -491,6 +575,7 @@ p{
 .bio-copy{
   width: 80%;
   margin-left: 20px;
+  line-height: 1.35;
 }
 
 .bio-lmar{
@@ -783,6 +868,24 @@ background-color: #1B1D28;
 
 /* Pricing Section */
 
+.card-summ{
+  width: 159%;
+  /* margin-right: 40px; */
+  position: relative;
+  right: 45%;
+}
+
+.card-pri{
+  position: relative;
+  left: 30%;
+}
+
+.ch{
+  font-size: 1.2rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
 #pricing {
   padding: 100px;
 }
@@ -799,12 +902,38 @@ background-color: #1B1D28;
 .pd{
   padding-top: 0%;
 }
+
+.c{
+  background-color: #d4fad6;
+  color: #000;
+}
+
+.card-header{
+  background-color: #d4fad6;
+  color: #000;
+}
+
+.play-bg{
+  background-color: rgba(128,	102,	1, 0.25)
+}
+
 /* --------------------------------------- */
+.t-text{
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+
+.mw{
+  min-width: 575px;
+}
 
 .fsize{
   font-size: 24px;
   margin-top: 13px;
-  font-weight: 500;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
 .mtop{
