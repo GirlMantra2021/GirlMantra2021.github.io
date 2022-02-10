@@ -94,6 +94,10 @@
     .v-style{
       width: 85%;
     }
+
+    .price-text{
+      font-size: 50px;
+    }
   
     .lmar{
       margin-left: 100px !important;
