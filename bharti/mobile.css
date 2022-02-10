@@ -25,12 +25,18 @@
     }
     /* bonus ends */
   
+
+    .play{
+      height: 125px;
+      padding: 21px 36px;
+    }
+
     .mhero-bottom {
     margin-bottom: 4rem;
     }
     .container-carousel{
       padding: 40px;
-      padding-bottom: 127px;
+      padding-bottom: 88px;
     }
     .course-snapshot{
       width: 65%;
@@ -93,6 +99,11 @@
     
     .v-style{
       width: 85%;
+    }
+
+
+    .mft{
+      font-size: 36px;
     }
 
     .price-text{
