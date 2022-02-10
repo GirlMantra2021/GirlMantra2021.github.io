@@ -1,7 +1,47 @@
 /* @media only screen and (max-width: 1155px) and (min-width: 500){ */
+
+
+    /* bonus section */
+    .container-bonus { 
+      max-width: 83%;
+      padding: 0 4%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      }
+      .points{
+      width: 100%;
+      border-left: 0px !important;
+      border-bottom: 1px solid rgba(0,0,0,0.08) !important;
+      padding: 25px 15px 20px 30px;
+      }
+  
+      .optionPoints {
+        margin-top: 30px;
+      }
+      .pointTitle{
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 69px;
+        margin-bottom: 120px;
+      }
+      /* bonus ends */
+      .pm{
+        position: inherit;
+      }
+      .pm2{
+        position: relative;
+        left: 368px;
+      }
+      .card-summ{
+        width: 100%;
+        right: 65%;
+      }
+      .s-text{
+        font-size: 2.5rem !important;
+      }
     .course-snapshot{
       width: 90%;
-      padding-top: 1.5rem;
+      padding-top: 1.5rem; 
       padding-bottom: 0rem;
     }
 
