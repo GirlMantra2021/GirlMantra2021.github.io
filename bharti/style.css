@@ -988,6 +988,12 @@ background-color: #1B1D28;
     width: 100%;
 }
 }
+
+/* @media only screen and (max-width: 1155px) and (min-width: 500){
+  .card-summ{
+    right: 110% !important;
+  }
+} */
 /* @media only screen and (max-device-width: 480px){
 }*/
 
