@@ -114,8 +114,9 @@ justify-content: center;
   text-align: left;
 }
 .pointTitle{
-  font-weight: 800;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.5px;
   line-height: 26px;
   margin-bottom: 13px;
   color: white;
@@ -187,6 +188,8 @@ p{
 
 .overline{
   font-weight: 500;
+  letter-spacing: 1.2px;
+  font-size: 10px !important;
   margin: auto;
   margin-bottom: -32px;
   letter-spacing: 1.2px;
@@ -195,9 +198,9 @@ p{
 
 .hero-heading{
   padding-bottom: -4rem;
-  font-size: 2.7rem;;
+  font-size: 50px;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 
 }
 
@@ -211,7 +214,8 @@ p{
 
 .heading-subtext{
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 17px;
+  letter-spacing: 0.5px;
   width: 60%;
   margin: auto;
   margin-bottom: 30px;
@@ -237,23 +241,28 @@ p{
 }
 
 .s-text{
-  font-size: 1.5rem !important; 
+  font-size: 25px !important;
+  letter-spacing: 0px !important;
   padding-left: 47px !important;
 }
 
 .header-btn {
-  font-size: 1.2rem;
+  font-size: 15px;
+  letter-spacing: 1.25px;
+  font-weight: 600;
   background-color: #fbf3fa;
   color: #000000ba;
   margin: auto;
   margin-bottom: 1rem;
   border-radius: 24px;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 3%;
+  padding-right: 3%;
   border-color:#000000;
 }
 .header-btn1 {
-  font-size: 1.2rem !important;
+  font-size: 15px !important;
+  letter-spacing: 1.25px !important;
+  font-weight: 600;
   background-color: #fbf3fa;
   color: #000000ba;
   margin: auto;
@@ -312,8 +321,10 @@ p{
 .support-header{
   background-color: #d4fad6;
   border-radius: 14px;
-  width: 70%;
-    margin: auto;
+  width: 72%;
+  font-size: 36px;
+  letter-spacing: 0.25px;
+  margin: auto;
 }
 
 .support-subheader{
@@ -324,7 +335,8 @@ p{
 }
 
 .support-para{
-  font-size: 1.2rem;
+  font-size: 17px;
+  letter-spacing: 0.5px;
   font-weight: 400;
   width:70%;
   margin:auto;
@@ -334,7 +346,9 @@ p{
 }
 
 .fw500{
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  font-size: 36px;
 }
 
 .support-row{
@@ -383,7 +397,8 @@ p{
   padding-top: 0.5rem;
   text-align: left;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 25px;
+  line-height: 1.35;
   margin-bottom: 8px;
 
 }
@@ -394,15 +409,22 @@ p{
 }
 
 .fs1rem{
-  font-size: 1.2rem;
+  font-size: 17px;
+  letter-spacing: 0.5px;
   line-height: 1.35;
 }
 .course-text{
-  font-size: 20px;
+  font-size: 21px;
+  letter-spacing: 0.15px;
   font-weight: 600;
   /* background: pink;
   border-radius: 0.4rem;
   margin-right: 95px; */
+}
+
+.fs2rem{
+  font-size: 15px;
+  letter-spacing: 0.25px;
 }
 
 /*testimonial-section*/
@@ -455,7 +477,8 @@ p{
 .syllabus-subtext{
   margin:auto;
   margin-bottom: 3rem;
-  font-size: 1.3rem;
+  font-size: 17px;
+  letter-spacing: 0.5px;
   line-height: 1.35;
   font-weight: 400;
   width: 60%;
@@ -541,6 +564,8 @@ p{
 .bonus-heading-box{
   padding-top: 1%;
   color: white;
+  font-size: 36px;
+  letter-spacing: 0.25px;
   padding-bottom: 1%;
   margin-bottom: 55px;
 }
@@ -580,11 +605,13 @@ p{
 
 .bio-lmar{
   margin-left: 20px;
-  font-size: 1.7rem;
+  font-size: 36px;
+  letter-spacing: 0.25px;
 }
 
 .bio-subheader{
-  font-size: 0.8rem;
+  font-size: 10px;
+  letter-spacing: 1.5px;
 }
 
 /**FAQ Section**/
@@ -881,7 +908,8 @@ background-color: #1B1D28;
 }
 
 .ch{
-  font-size: 1.2rem;
+  font-size: 25px;
+    letter-spacing: 0px;
     padding-top: 4%;
     padding-bottom: 4%;
 }
@@ -891,7 +919,7 @@ background-color: #1B1D28;
 }
 
 .price-text {
-  font-size: 3rem;
+  font-size: 36px;
   line-height: 1.5;
 }
 
@@ -921,7 +949,8 @@ background-color: #1B1D28;
 .t-text{
   text-align: left;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 15px;
+  letter-spacing: 0.25px;
   line-height: 1.35;
 }
 
@@ -930,9 +959,10 @@ background-color: #1B1D28;
 }
 
 .fsize{
-  font-size: 24px;
+  font-size: 25px;
   margin-top: 13px;
-  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-weight: 500;
   margin-bottom: 8px;
 }
 
@@ -968,7 +998,8 @@ background-color: #1B1D28;
 }
 
 .psize{
-  font-size: 1.2rem;
+  font-size: 15px;
+  letter-spacing: 0.25px;
 }
 
 .curve-border{
