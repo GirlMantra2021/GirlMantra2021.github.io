@@ -19,7 +19,7 @@
     }
     .pointTitle{
       font-weight: 500;
-      font-size: 2.5rem;
+      font-size: 2.3rem !important;
       line-height: 69px;
       margin-bottom: 120px;
     }
@@ -156,7 +156,7 @@
     }
   
     .toolkit-heading{
-      font-size: 3rem;
+      font-size: 2.5rem !important;
       line-height: 1.35;
     }
   
@@ -177,12 +177,12 @@
       padding-left: 12%;
     }
     .hero-heading{
-      font-size: 4.2rem;
+      font-size: 4rem !important;
       margin-left: 20px;
       margin-right: 20px;
     }
     .heading-subtext{
-      font-size: 2.5rem;
+      font-size: 2rem !important;
       width: 85%;
       line-height: 1.5;
       margin-bottom: 72px;
@@ -216,10 +216,11 @@
     }
     .s-text{
       font-size: 2.5rem !important;
+      line-height: 1.35;
     }
 
     .header-btn{
-      font-size: 2.5rem;
+      font-size: 2rem !important;
       width: 484px;
       padding-top: 2%;
       padding-bottom: 2%;
@@ -230,14 +231,14 @@
       font-size: 2.5rem !important;
     }
     p{
-      font-size: 2.5rem;
+      font-size: 2rem !important;
       margin-bottom: 2.5rem;
     }
     #introduction{
       padding: 15% 0 27%;
     }
     .support-header{
-      line-height: 70px;
+      line-height: 1.35;
       width: 91%;
       margin-bottom: 36px;
     }
@@ -271,7 +272,7 @@
     }
    
     .fsize{
-      font-size: 3rem;
+      font-size: 2.5rem !important;
       min-width: 900px;
       margin-left: -61px;
       margin-bottom: 16px;
@@ -286,7 +287,7 @@
     }
   
     .fs1rem{
-      font-size: 2.5rem;
+      font-size: 2rem !important;
       line-height: 1.35;
     }
   
@@ -294,7 +295,7 @@
       width: 97%;
     }
     .toolkit-text{
-      font-size: 2.2rem;
+      font-size: 2.5rem !important;
       line-height: 1.35;
     }
     .syllabus-subtext{
@@ -306,15 +307,15 @@
         padding-right: 20px;
     }
     .course-text{
-      font-size: 2.5rem;
+      font-size: 2.5rem !important;
     }
   
     .calender-size{
-      margin-left: -8px;
+      margin-left: -8px !important;
       height: 192px;
     }
     .calender-size2{
-      margin-left: -8px;
+      margin-left: -8px !important;
       height: 192px;
     }
     .bonus-header{

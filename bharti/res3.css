@@ -21,7 +21,7 @@
         }
         .pointTitle{
           font-weight: 500;
-          font-size: 2.3rem;
+          font-size: 1.5rem;
           text-align: center;
           line-height: 69px;
           margin-bottom: 120px;
@@ -39,7 +39,7 @@
           right: 0%;
         }
         .s-text{
-          font-size: 2.5rem !important;
+          font-size: 2.5rem;
         }
       .course-snapshot{
         width: 90%;
@@ -108,7 +108,7 @@
       }
     
       .toolkit-heading{
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
     
       .syllabus-section{
@@ -119,22 +119,22 @@
         padding-left: 12%;
       }
       .hero-heading{
-        font-size: 4rem;
+        font-size: 3rem;
       }
       .heading-subtext{
-        font-size: 2rem;
+        font-size: 1.2rem;
       }
       h4{
         font-size: 1.7rem;
       }
       .header-btn{
-        font-size: 2rem;
+        font-size: 1rem;
       }
       .header-btn1{
         font-size: 2rem;
       }
       p{
-        font-size: 2rem;
+        font-size: 1rem;
       }
       #introduction{
         padding: 7% 0 18%;
@@ -144,30 +144,30 @@
       }
       .support-para{
         width: 85%;
-        font-size: 2rem;
+        font-size: 1.2rem;
       }
      
       .fsize{
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
     
       .psize{
-        font-size: 2rem;
+        font-size: 1.2rem;
       }
     
       .fs1rem{
-        font-size: 2rem;
+        font-size: 1.2rem;
       }
       .toolkit-text{
-        font-size: 2.5rem;
+        font-size: 1.2rem;
       }
       .syllabus-subtext{
-        font-size: 2rem;
+        font-size: 1.2rem;
         width: 80%;
         line-height: 1.35;
       }
       .course-text{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
       }
     
       .calender-size{
