@@ -218,6 +218,10 @@
       font-size: 2.5rem !important;
       line-height: 1.35;
     }
+    .navbar{
+      padding-bottom: 0.5rem !important;
+      padding-top: 0.5rem !important;
+    }
 
     .header-btn{
       font-size: 2rem !important;

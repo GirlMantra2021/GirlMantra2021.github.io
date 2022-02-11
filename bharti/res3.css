@@ -41,6 +41,11 @@
         .s-text{
           font-size: 2.5rem;
         }
+
+        .navbar{
+          padding-bottom: 0;
+          padding-top: 0;
+        }
       .course-snapshot{
         width: 90%;
         padding-top: 1.5rem; 
