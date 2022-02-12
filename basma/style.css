@@ -246,3 +246,74 @@ header p{
     letter-spacing: 0.5px;
     padding-right: 8%;
 }
+
+/* chapter 3 */
+
+#chap3{
+    background: #04000E;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.chap3-header h1{
+    font-family: Classica Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 130%;
+    text-align: center;
+    color: #EDF0F1;
+}
+
+/* scroll section */
+.pause{
+    height: 400vh;
+    display: flex;
+}
+
+.image-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.head-text{
+    font-family: Classica Pro;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.p-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.about-pages{
+    width: 50%;
+}
+
+.about-pages div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-pages div>p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
