@@ -3,9 +3,15 @@
     margin: 0; 
 }
 
+/* @font-face {
+    font-family: 'Classica Pro';
+    src: url();
+} */
+
 body{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Inter', 'Montserrat', sans-serif;;
 }
+
 
 .wrapper{
     width: 100vw;
@@ -312,8 +318,275 @@ header p{
 }
 
 .about-pages div>p {
-    width: 80%;
+    width: 70%;
     font-size: 18px;
     line-height: 30px;
 }
 
+/* chapter 4 */
+
+#chap4{
+    background: #04000E;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.chap-header{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 98px;
+}
+
+.chap4-header{
+    font-family: Termina;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.chap4-subtext{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255,0.9)
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 20px;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* padding-bottom: 386px; */
+}
+
+.grid-image{
+    width: 400px;
+    height: 275px;
+    border: 4px solid rgb(85, 79, 24);
+    border-radius: 20px 20px;
+}
+
+.grid-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 135%;
+    letter-spacing: 0.15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* chapter 5 */
+
+#course-plan{
+    background: #04000E;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.course-flex-container{
+    padding-top: 359px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.course-header{
+    font-family: Termina;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.course-subtext{
+    width: 563px;
+    height: 37px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 48px;
+}
+
+.subcontainer{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 600px;
+    height: 628px;
+}
+
+.subcontainer h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 135%;
+    letter-spacing: 0.15px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.subcontainer p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.props{
+    width: 35px;
+    height: 35px;
+    margin-right: 42px;
+}
+
+/* bio section */
+#bio{
+    background: #04000E;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.bio-container{
+    padding-top: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.bio-section{
+    /* width: 641.24px;
+    height: 456.65px; */
+    display: flex;
+    flex-direction: row;
+    height: 530px;
+    border-radius: 2rem 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.bio-img{
+    padding-top: 2px;
+    width: 499px;
+    height: auto;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.bio-section span{
+    padding-left: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.bio-section h1{
+    padding-left: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 135%;
+    letter-spacing: 0.25px;
+    color: #BB9A16;
+}
+
+.bio-section p{
+    padding-left: 40px;
+    margin-right: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+.bio-section button{
+    margin-top: 21px;
+    margin-left: 40px;
+    width: 180px;
+    height: 45px;
+    left: 564.24px;
+    top: 275px;
+    font-size: 16px;
+    background: #04000E;
+    border-radius: 33.3323px;
+    color: rgba(255, 255, 255, 0.9); ;
+
+}
+
+/* summary */
+#summary{
+    background: #04000E;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.summary-container{
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.summ-heading h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 135%;
+    letter-spacing: 0.25px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.summ-heading p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.rmar{
+    margin-right: 10px;
+}
+
+.points{
+    padding-top: 48px;
+    padding-left: 2%;
+    line-height: 43px;
+}
