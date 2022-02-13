@@ -19,6 +19,7 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="waypoint/lib/noframework.waypoints.min.js"></script>
 </head>
 <body>
     <section class="hero" id="hero">
@@ -95,7 +96,7 @@
         </div>
         <section class="pause">
             <div class="about-pages">
-                <div>
+                <div id="first">
                     <h2 class="head-text">Understanding PCOS </h2>
                     <p class="p-text">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
@@ -103,7 +104,7 @@
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
                     </p>
                 </div>
-                <div>
+                <div id="second">
                     <h2 class="head-text">My go to Recipes </h2>
                     <p class="p-text">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
@@ -111,7 +112,7 @@
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
                     </p>
                 </div>
-                <div>
+                <div id="third">
                     <h2 class="head-text">Adapting the med diet to your culture</h2>
                     <p class="p-text">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
@@ -119,7 +120,7 @@
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
                     </p>
                 </div>
-                <div>
+                <div id="fourth">
                     <h2 class="head-text">My go to Recipes 2</h2>
                     <p class="p-text">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
@@ -342,6 +343,47 @@
             </div>
         </div>
     </section>
+
+    <script type="text/javascript">
+        var image = document.getElementById("myImage");
+        var waypoint = new Waypoint({
+            element: document.getElementById('first'),
+            handler: function(direction) {
+            console.log("working 1")
+            image.src = "assests/chap3.png";
+            image.classList.add("animate__animated", "animate__fadeIn");
+            image.classList.remove("animate__animated", "animate__fadeIn");
+            }
+        })
+
+        var waypoint1 = new Waypoint({
+            element: document.getElementById('second'),
+            handler: function(direction) {
+            console.log("working 2")
+            image.src = "assests/basma1.png";
+            image.classList.add("animate__animated", "animate__fadeIn");
+            // image.classList.remove("animate__animated", "animate__fadeIn");
+            }
+        })
+
+        var waypoint2 = new Waypoint({
+            element: document.getElementById('third'),
+            handler: function(direction) {
+            console.log("working 3")
+            image.src = "assests/basma2.png";
+            image.classList.add("animate__animated", "animate__fadeIn");
+            }
+        })
+
+        var waypoint3 = new Waypoint({
+            element: document.getElementById('fourth'),
+            handler: function(direction) {
+            console.log("working 4")
+            image.src = "assests/basma7.png";
+            image.classList.add("animate__animated", "animate__fadeIn");
+            }
+        })
+    </script>
 
   <!-- <h1 class="text-3xl font-bold underline">
     Hello world!
