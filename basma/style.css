@@ -17,7 +17,8 @@ html,body {
 } */
 
 body{
-    font-family: 'Inter', 'Montserrat', sans-serif;;
+    font-family: 'Inter', 'Montserrat', sans-serif;
+    background: #04000E;
 }
 
 #wrapper{
@@ -623,6 +624,84 @@ header p{
     line-height: 43px;
 }
 
+/* bio section */
+
+.bio-sections{
+    padding: 0;
+    width:80%;
+    margin-top: 12rem;
+    text-align: left;
+    background-image: linear-gradient(#FFFAE2, #D4EDFA);
+    border-radius: 18px;
+    color: #000000;
+    /* border: solid; */
+    border-width: thin;
+  }
+  
+  .bio-image{
+    width: 100%;
+    border-radius: 28px 0 0 28px;
+    position: relative;
+    right: 6px;
+  }
+  
+  .bio-copy{
+    padding-left: 40px;
+    margin-right: 50px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    color: #000000;
+    /* width: 80%;
+    margin-left: 20px;
+    line-height: 1.35; */
+  }
+  
+  .bio-lmar{
+    padding-left: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 135%;
+    letter-spacing: 0.25px;
+    color: #BB9A16;
+    /* margin-left: 20px;
+    font-size: 36px;
+    letter-spacing: 0.25px; */
+  }
+  
+  .bio-subheader{
+    padding-left: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+
+    color: #000000;
+    /* font-size: 13px;
+    letter-spacing: 1.5px; */
+  }
+  .fbutton{
+    margin-top: 21px;
+    margin-left: 40px;
+    width: 180px;
+    height: 45px;
+    left: 564.24px;
+    top: 275px;
+    font-size: 16px;
+    background: #04000E;
+    border-radius: 33.3323px;
+    color: rgba(255, 255, 255, 0.9); ;
+  }
+/* end  */
+
 @media all and (max-width: 1294px) {
     .flex-container{
         height: auto;
@@ -657,6 +736,20 @@ header p{
 @media all and (max-width: 1326px) {
     .hero-content h5{
        margin-top: 20%;
+    }
+}
+
+@media all and (max-width: 980px) {
+    .bio-image{
+        border-radius: 20px 20px 0 0;
+        position: relative;
+        right: 0px;
+    }
+    .bio-subheader{
+        padding-top: 20px;
+    }
+    .fbutton{
+        margin-bottom: 25px;
     }
 }
 
