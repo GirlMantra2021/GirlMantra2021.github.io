@@ -426,6 +426,7 @@ header p{
 .course-flex-container{
     padding-top: 359px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -454,6 +455,7 @@ header p{
 .subcontainer{
     padding-left: 10%;
     display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-around;
     /* align-items: center; */
@@ -661,5 +663,44 @@ header p{
 @media all and (max-width: 894px) {
     .grid-container2{
        grid-template-columns: 1fr;
+    }
+}
+
+@media all and (max-width: 616px) {
+    .course-header{
+        font-size: 28px;
+        padding-left: 119px;
+    }
+    .course-subtext{
+        font-size: 12px;
+        padding-left: 119px;
+        padding-right: 151px;
+    }
+    .subcontainer h3 {
+        font-size: 16px;
+        padding-right: 128px;
+    }
+    .subcontainer p{
+        font-size: 12px;
+        padding-right: 147px;
+    }
+    .props{
+        margin-left: 60px;
+    }
+    .course-image-1{
+        width: 81%;
+        height: auto;
+        padding-left: 98px;
+    }
+    .summ-heading h2{
+        font-size: 24px;
+        padding-right: 53px;
+    }
+    .grid-image{
+        width: 308px;
+        height: auto;
+    }
+    .rmar{
+        font-size: 12px;
     }
 }
