@@ -712,6 +712,28 @@ header p{
         width: 500px;
         height: 500px;
     }
+    header h1 {
+        font-size: 28px;
+    }
+    .h-text{
+        font-size: 14px;
+        padding-right: 35%;
+    }
+    .chapter1-subtext{
+        font-size: 14px;
+        padding-right: 29%;
+    }
+    .hero-image1 {
+        width: 345px;
+        height: auto;
+    }
+    .chapter2-header h1{
+        padding-right: 31%;
+        font-size: 28px;
+    }
+    p{
+        margin-bottom: 0;
+    }
 }
 
 @media all and (max-width: 1304px) {
@@ -795,5 +817,8 @@ header p{
     }
     .rmar{
         font-size: 12px;
+    }
+    .points{
+        font-size: 13px;
     }
 }
