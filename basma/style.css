@@ -822,3 +822,46 @@ header p{
         font-size: 13px;
     }
 }
+
+@media all and (max-width: 450px){
+    .lappy-view{
+        display: none;
+    }
+    header{
+        padding-left: 6%;
+    }
+    header h1 {
+        font-size: 26px;
+    }
+    .chapter1-subtext {
+        font-size: 13px;
+    }
+    .hero-image1 {
+        width: 358px;
+        height: auto;
+    }
+    .mhero-bottom{
+        font-size: 17px;
+    }
+    .chapter2-header{
+        font-size: 16px;
+    }
+    .container-chap2{
+        padding-left: 42px;
+    }
+    .chapter2-header h1 {
+        padding-right: 20%;
+    }
+    .grid-container{
+        padding-right: 0%;
+    }
+    .grid-item1{
+        font-size: 16px;
+    }
+    .grid-item2{
+        font-size: 13px;
+    }
+    .grid-item3{
+        font-size: 13px;
+    }
+}
