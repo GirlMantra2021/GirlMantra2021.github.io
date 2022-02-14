@@ -36,6 +36,9 @@
               <div class="collapse navbar-collapse nav-bg" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
+                    <img src="assests/Icon.png" class="nav-link" alt="">
+                  </li>
+                  <li class="nav-item">
                     <a class="nav-link fs1rem" href="#footer">Instructor Bootcamp</a>
                   </li>
                   <li class="nav-item">
@@ -45,7 +48,7 @@
                     <a class="nav-link fs1rem" href="#cta">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs1rem" href="#cta">Log-in</a>
+                    <a class="nav-link fs1rem" style="color: #FFD426;" href="#cta">Log-in</a>
                   </li>
                 </ul>
           
@@ -59,7 +62,7 @@
             <div class="wrapper">
                 <header>
                 <div class="hero-content">
-                    <h5>STARTS ON 17TH FEB, 2022</h5>
+                    <h5><ion-icon name="calendar-outline" style="margin-right: 5px; width: 20px; height: 20px; color: red;"></ion-icon>STARTS ON 17TH FEB, 2022</h5>
                     <br>
                     <h1 class="" >Mediterranean Diet for PCOS</h1>
                     <p class="h-text">A 7 day immersive program designed to help women with PCOS  adopt a Mediterranean Diet. Learn 5 easy easy home cooked meals that are  affordable and culturally relevant from an Obgyn and Culinary Medicine Specialist. Get daily strategies, tips and live Q+A sessions with Dr.  Faris.</p>
@@ -130,7 +133,7 @@
             <div class="about-pages">
                 <div id="first">
                     <h2 class="head-text">Understanding PCOS </h2>
-                    <p class="p-text">
+                    <p class="p-text" id="first-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
@@ -138,7 +141,7 @@
                 </div>
                 <div id="second">
                     <h2 class="head-text">My go to Recipes </h2>
-                    <p class="p-text">
+                    <p class="p-text" id="second-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
@@ -146,7 +149,7 @@
                 </div>
                 <div id="third">
                     <h2 class="head-text">Adapting the med diet to your culture</h2>
-                    <p class="p-text">
+                    <p class="p-text" id="third-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
@@ -154,7 +157,7 @@
                 </div>
                 <div id="fourth">
                     <h2 class="head-text">My go to Recipes 2</h2>
-                    <p class="p-text">
+                    <p class="p-text" id="fourth-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
                         from around the world focusing on the intersecting spheres of process, making and industrial production.
@@ -422,9 +425,16 @@
         var waypoint = new Waypoint({
             element: document.getElementById('first'),
             handler: function(direction) {
-            console.log("working 1")
+            // console.log("working 1")
             image.src = "assests/chap3.png";
             image.classList.add("animate__animated", "animate__fadeIn");
+            // image.classList.remove("animate__animated", "animate__fadeIn");
+            }
+        })
+
+        var waypoint0 = new Waypoint({
+            element: document.getElementById('first-sub'),
+            handler: function(direction) {
             image.classList.remove("animate__animated", "animate__fadeIn");
             }
         })
@@ -435,7 +445,12 @@
             console.log("working 2")
             image.src = "assests/basma1.png";
             image.classList.add("animate__animated", "animate__fadeIn");
-            // image.classList.remove("animate__animated", "animate__fadeIn");
+            }
+        })
+        var waypoint01 = new Waypoint({
+            element: document.getElementById('second-sub'),
+            handler: function(direction) {
+            image.classList.remove("animate__animated", "animate__fadeIn");
             }
         })
 
@@ -447,13 +462,24 @@
             image.classList.add("animate__animated", "animate__fadeIn");
             }
         })
+        var waypoint02 = new Waypoint({
+            element: document.getElementById('third-sub'),
+            handler: function(direction) {
+            image.classList.remove("animate__animated", "animate__fadeIn");
+            }
+        })
 
         var waypoint3 = new Waypoint({
             element: document.getElementById('fourth'),
             handler: function(direction) {
-            console.log("working 4")
             image.src = "assests/basma7.png";
             image.classList.add("animate__animated", "animate__fadeIn");
+            }
+        })
+        var waypoint03 = new Waypoint({
+            element: document.getElementById('fourth-sub'),
+            handler: function(direction) {
+            image.classList.remove("animate__animated", "animate__fadeIn");
             }
         })
     </script>
