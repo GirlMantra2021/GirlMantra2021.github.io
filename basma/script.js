@@ -16,39 +16,6 @@ function splitScroll(){
 splitScroll();
 
 
-// var waypoint = new Waypoint({
-//     element: document.getElementById('first'),
-//     handler: function() {
-//       console.log("working 1")
-//     }
-//   })
-
-//   var waypoint1 = new Waypoint({
-//     element: document.getElementById('second'),
-//     handler: function() {
-//       console.log("working 2")
-//     }
-//   })
-
-//   var waypoint2 = new Waypoint({
-//     element: document.getElementById('third'),
-//     handler: function() {
-//       console.log("working 3")
-//     }
-//   })
-
-//   var waypoint3 = new Waypoint({
-//     element: document.getElementById('fourth'),
-//     handler: function() {
-//       console.log("working 4")
-//     }
-//   })
-
-
-
-
-
-
 
 // //Event-listner
 

@@ -394,6 +394,37 @@ header p{
     line-height: 30px;
 }
 
+.flex-scroll{
+    display: flex;
+    width: 586px;
+    height: 54px !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(128, 102, 1, 0.25);
+    border: 0.5px solid rgba(255, 255, 255, 0.45);
+    box-sizing: border-box;
+    border-radius: 200px;
+}
+
+.scroll-font{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.effect{
+    height: 42px !important;
+    width: 183px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
+    border-radius: 200px;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
 /* chapter 4 */
 
 #chap4{
