@@ -199,6 +199,7 @@ header p{
     background: rgba(234, 234, 234, 0.45);
     border: 1px solid rgba(255, 251, 251, 0.77);
     border-radius: 12px;
+    padding: 1%;
 }
 .brand-text{
     color: rgba(0, 0, 0, 0.9) !important;
