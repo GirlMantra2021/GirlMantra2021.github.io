@@ -395,6 +395,7 @@ header p{
 }
 
 .flex-scroll{
+    margin-left: 70px;
     display: flex;
     width: 586px;
     height: 54px !important;
@@ -420,9 +421,19 @@ header p{
 .effect{
     height: 42px !important;
     width: 183px;
+    padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
     color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.sticky-nav{
+    position: fixed;
+    top: 80px;
+    /* z-index: 22;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 60px; */
 }
 
 /* chapter 4 */
