@@ -829,6 +829,7 @@ header p{
     }
     header{
         padding-left: 6%;
+        padding-right: 6%;
     }
     header h1 {
         font-size: 26px;
@@ -854,14 +855,30 @@ header p{
     }
     .grid-container{
         padding-right: 0%;
+        grid-gap: 0px;
+        padding-bottom: 80px;
     }
     .grid-item1{
         font-size: 16px;
     }
     .grid-item2{
         font-size: 13px;
+        padding-right: 4%;
     }
     .grid-item3{
         font-size: 13px;
+        padding-right: 4%;
+    }
+    .chap-header{
+        margin-left: 9%;
+        margin-right: 6%;
+        margin-bottom: 35px;
+    }
+    .mview{
+        font-family: Inter;
+        font-size: 24px;
+    }
+    .grid-container2 {
+        grid-gap: 0px;
     }
 }
