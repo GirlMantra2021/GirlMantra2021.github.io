@@ -881,4 +881,21 @@ header p{
     .grid-container2 {
         grid-gap: 0px;
     }
+
+    .course-flex-container{
+        padding-top: 100px;
+        padding-left: 4%;
+    }
+    .props{
+        margin-right: 20px;
+        width: 28px;
+        height: 28px;
+    }
+    .course-image-1 {
+        margin-top: 15%;
+        width: 92%;
+        padding-right: 2%;
+        height: auto;
+        padding-left: 6%;
+    }
 }
