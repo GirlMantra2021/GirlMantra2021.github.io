@@ -688,6 +688,11 @@ header p{
     /* font-size: 13px;
     letter-spacing: 1.5px; */
   }
+  .ion-image{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+  }
   .fbutton{
     margin-top: 21px;
     margin-left: 40px;
@@ -897,5 +902,40 @@ header p{
         padding-right: 2%;
         height: auto;
         padding-left: 6%;
+    }
+
+    .bio-lmar{
+        padding-left: 38px;
+        font-size: 24px;
+    }
+    .abc{
+        font-size: 10px !important;
+    }
+    .bio-copy{
+        margin-right: 37px;
+        font-size: 13px;
+        line-height: 129%;
+    }
+    .ion-image{
+        height: 16px;
+        width: 16px;
+    }
+    .fbutton{
+        height: 41px;
+        width: 164px;
+        font-size: 15px;
+    }
+    .summ-heading h2 {
+        font-size: 21px;
+    }
+
+    .chap4-subtext{
+        font-size: 15px;
+    }
+    .grid-text{
+        padding-top: 11px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 14px;
     }
 }
