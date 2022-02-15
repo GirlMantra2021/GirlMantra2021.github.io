@@ -60,6 +60,26 @@ html,body {
     src: url(fonts/Termina-Regular.otf);
     font-style: normal;
 }
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Demi.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Thin.otf);
+    font-weight: 100;
+}
 body{
     font-family: 'Inter', 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
     background: #04000E;
