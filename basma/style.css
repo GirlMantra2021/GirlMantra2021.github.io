@@ -1067,4 +1067,15 @@ header p{
     .child{
         flex: 1 1 200px;
     }
+    .subcontainer{
+        padding-left: 10%;
+    }
+    .mview-header{
+        margin-bottom: 27px;
+        padding-left: 12%;
+        font-family: Classica Pro;
+        font-style: normal;
+        font-weight: normal;
+        color: #EDF0F1;
+    }
 }
