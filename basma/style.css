@@ -11,13 +11,52 @@ html,body {
     margin: 0; 
 }
 
-/* @font-face {
+@font-face {
     font-family: 'Classica Pro';
-    src: url();
-} */
-
+    src: url('fonts/ClassicaPro-Bold.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-BoldItalic.otf');
+    font-style: italic;
+    font-weight:700;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-Italic.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-Light.otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-Regular.otf');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-LightItalic.otf');
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-Demi.otf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url('fonts/ClassicaPro-DemiItalic.otf');
+    font-style: italic;
+    font-weight: 600;
+}
 body{
-    font-family: 'Inter', 'Montserrat', sans-serif;
+    font-family: 'Inter', 'Classica Pro',  'Montserrat', sans-serif;
     background: #04000E;
 }
 
