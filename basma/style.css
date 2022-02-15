@@ -538,8 +538,15 @@ header p{
     color: rgba(255, 255, 255, 0.9);
 }
 
+.position-course{
+    position: relative;
+    left: 7%;
+    padding-top: 350px;
+}
+
 .course-flex-container{
-    padding-top: 359px;
+    /* padding-top: 359px; */
+    padding-top: 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -568,6 +575,7 @@ header p{
 }
 
 .subcontainer{
+    margin-top: 19%;
     /* padding-left: 10%; */
     display: flex;
     /* flex-wrap: wrap; */
@@ -1003,7 +1011,7 @@ header p{
     }
 
     .course-flex-container{
-        padding-top: 100px;
+        padding-top: 0;
         padding-left: 4%;
     }
     .props{
@@ -1012,7 +1020,7 @@ header p{
         height: 28px;
     }
     .course-image-1 {
-        margin-top: 15%;
+        margin-top: 0;
         width: 92%;
         padding-right: 2%;
         height: auto;
@@ -1069,6 +1077,8 @@ header p{
         flex: 1 1 200px;
     }
     .subcontainer{
+        margin-top: 0;
+        padding-top: 30%;
         padding-left: 10%;
     }
     .mview-header{
@@ -1085,5 +1095,16 @@ header p{
     }
     .hero-image1{
         position: static;
+    }
+    .position-course{
+        position: relative;
+        left: -19%;
+        padding-top: 80px;
+    }
+    .order1{
+        order: 1;
+    }
+    .order2{
+        order: 2;
     }
 }
