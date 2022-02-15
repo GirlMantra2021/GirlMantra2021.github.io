@@ -1072,11 +1072,18 @@ header p{
         padding-left: 10%;
     }
     .mview-header{
-        margin-bottom: 27px;
+        margin-bottom: 76px;
         padding-left: 12%;
         font-family: Classica Pro;
         font-style: normal;
         font-weight: normal;
         color: #EDF0F1;
+    }
+    .navbar{
+        margin-left: -2%;
+        margin-right: -2%;
+    }
+    .hero-image1{
+        position: static;
     }
 }
