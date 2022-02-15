@@ -834,6 +834,14 @@ header p{
     .flex-container{
         height: auto;
     }
+    .hero-image1{
+        width: 100%;
+        left: 0;
+    }
+    .chapter2-header h1{
+        font-size: 42px;
+        padding-right: 50%;
+    }
 }
 @media all and (max-width: 768px) {
     .hero-image1{
@@ -901,23 +909,70 @@ header p{
     .fbutton{
         margin-bottom: 25px;
     }
+    .course-image-1{
+        padding-top: 50px;
+    }
+    .lappy-view{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .mview-header{
+        margin-bottom: 76px;
+        padding-left: 30%;
+        font-family: Classica Pro;
+        font-style: normal;
+        font-weight: normal;
+        color: #EDF0F1;
+    }
+    .head-text{
+        font-size: 18px;
+        margin-top: 21px;
+        margin-bottom: 20px;
+    }
+    .p-text{
+        font-size: 13px;
+        margin-bottom: 100px;
+    }
 }
 
 @media all and (max-width: 894px) {
     .grid-container2{
        grid-template-columns: 1fr;
     }
+    .g-image{
+        position: relative;
+        left: 20%;
+    }
 }
 
 @media all and (max-width: 616px) {
     .course-header{
         font-size: 28px;
-        padding-left: 119px;
+        /* padding-left: 119px; */
+    }
+    .chap4-subtext{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .chap4-header{
+        font-size: 28px;
+        padding-left: 0% !important;
+        padding-right: 0%;
+    }
+    .g-image{
+        position: static;
+        left: 0;
+    }
+    .mview-header{
+        padding-left: 21%;
     }
     .course-subtext{
         font-size: 12px;
-        padding-left: 119px;
+        /* padding-left: 119px; */
         padding-right: 151px;
+        margin-bottom: 0;
     }
     .subcontainer h3 {
         font-size: 16px;
@@ -952,6 +1007,22 @@ header p{
 }
 
 @media all and (max-width: 450px){
+    .course-header{
+        padding-left: 119px;
+    }
+    .course-subtext{
+        padding-left: 119px;
+        margin-bottom: 100px;
+    }
+    .chap4-subtext{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .chap4-header{
+        font-size: 24px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
     .lappy-view{
         display: none;
     }
@@ -979,7 +1050,7 @@ header p{
         padding-left: 42px;
     }
     .chapter2-header h1 {
-        padding-right: 20%;
+        padding-right: 22%;
     }
     .grid-container{
         padding-right: 0%;
