@@ -435,6 +435,15 @@ header p{
     margin-top: 60px;
     margin-bottom: 60px; */
 }
+.sticky-nav2{
+    position: relative;
+    left: 100px;
+}
+.sticky-nav5{
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
 
 /* chapter 4 */
 

@@ -9,7 +9,6 @@ function splitScroll(){
         triggerHook: 0
     })
     .setPin('.image-title')
-    .addIndicators()
     .addTo(controller);
 }
 
