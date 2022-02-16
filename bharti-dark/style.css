@@ -11,6 +11,19 @@ html,body {
     margin: 0; 
 }
 
+p{
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    /* color: #613b1a !important; */
+    color: rgba(118,99,18,1);
+    /* text-decoration: 0 !important; */
+}
+
 @font-face {
     font-family: 'Classica Pro';
     src: url(fonts/ClassicaPro-Bold.otf);
@@ -136,7 +149,7 @@ header h1{
 
     color: rgba(0, 0, 0, 0.9);
     width: 559px;
-    height: 144px;
+    height: 108px;
 
 }
 
@@ -866,6 +879,8 @@ header p{
     margin-right: 42px;
 }
 
+
+
 /* bio section */
 #bio{
     background: #04000E;
@@ -948,6 +963,35 @@ header p{
 
 }
 
+/* faq section */
+#faq{
+    background: #04000E;
+    border: 3% 5% 7%;
+}
+
+.faq-section{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.faq-header{
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 15%;
+}
+.faq-text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
 /* summary */
 #summary{
     background: #04000E;
@@ -955,7 +999,7 @@ header p{
 }
 
 .summary-container{
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 10%;
     padding-bottom: 20%;
     display: flex;
