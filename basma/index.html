@@ -39,24 +39,25 @@
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id = "title">
           
-              <a class="navbar-brand brand-text" href="#">TUSSLE.FIT</a>
+              <a class="navbar-brand brand-text" href="#" id="brand">TUSSLE.FIT</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse nav-bg" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <img src="assests/Icon.png" class="nav-link" alt="">
+                  </li> -->
+                  <!-- light & dark mode icon above -->
+                  <li class="nav-item">
+                    <a class="nav-link fs2rem" id="n1" href="#footer">Instructor Bootcamp</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs1rem" href="#footer">Instructor Bootcamp</a>
+                    <a class="nav-link fs2rem" id="n2" href="#pricing">Workshops</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs1rem" href="#pricing">Workshops</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fs1rem" href="#cta">Courses</a>
+                    <a class="nav-link fs2rem" id="n3" href="#cta">Courses</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link fs1rem" style="color: #FFD426;" href="#cta">Log-in</a>
@@ -81,7 +82,7 @@
                         <div><img class="dp" src="assests/dp.png"></div>
                         <div><p class="chapter1-subtext"><em> Join Jahnavi, Meher and 50 other women in this program<em></p></div>
                     </div>
-                    <button class="header-btn header-btn-txt">RESERVE SEAT $120</button>
+                    <button class="header-btn header-btn-txt" id="nav-text2">RESERVE SEAT $120</button>
                 </div>
                 <div class="hero-image">
                     <img class="hero-image1" src="assests/hero-image.png" alt="">
@@ -104,11 +105,13 @@
                 <p class="mhero-bottom">Live workshop + recorded</p>
             </div>
             <div class="child">
-                <p class="snapshot-para">Course fee</p>
-                <p class="mhero-bottom">$100</p>
+                <p class="snapshot-para" id="nav-text3" >Course fee</p>
+                <p class="mhero-bottom" id="nav-text">$100</p>
             </div>
         </div>
         </section>
+
+        <!-- <hr style="color: #04000E;" id="nav-text"> -->
 
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
     <section class="chapter2" id="chap2">
@@ -377,6 +380,25 @@
         var d = document.getElementById('d');
         var toStick = document.getElementById('toStick');
         var picky = document.getElementById('picky');
+        var n1 = document.getElementById('n1');
+        var n2 = document.getElementById('n2');
+        var n3 = document.getElementById('n3');
+        var brand = document.getElementById('brand');
+        
+        function toogleNavClass(){
+            n1.classList.remove('fs2rem');
+            n2.classList.remove('fs2rem');
+            n3.classList.remove('fs2rem');
+            brand.classList.add('brand-text2');
+        }
+
+        function toggleNavClass2(){
+            n1.classList.add('fs2rem');
+            n2.classList.add('fs2rem');
+            n3.classList.add('fs2rem');
+            brand.classList.remove('brand-text2');
+        }
+
         function removeClass(){
             a.classList.remove('effect');
             b.classList.remove('effect2');
@@ -470,6 +492,20 @@
             picky.classList.remove('sticky-nav');
             }
         })
+        var waypoint7 = new Waypoint({
+            element: document.getElementById('nav-text'),
+            handler: function(direction) {
+                toogleNavClass();
+                toogleNavClass();
+            }
+        })
+        var waypoint8 = new Waypoint({
+            element: document.getElementById('nav-text2'),
+            handler: function(direction) {
+                toggleNavClass2();
+            }
+        })
+        
     </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js" integrity="sha512-RvUydNGlqYJapy0t4AH8hDv/It+zKsv4wOQGb+iOnEfa6NnF2fzjXgRy+FDjSpMfC3sjokNUzsfYZaZ8QAwIxg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

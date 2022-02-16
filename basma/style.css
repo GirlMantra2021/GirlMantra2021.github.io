@@ -260,6 +260,10 @@ header p{
 
 /* Navbar */
 
+.fs2rem{
+    color: #000000 !important;
+}
+
 .navbar-nav{
     background: rgba(234, 234, 234, 0.45);
     border: 1px solid rgba(255, 251, 251, 0.77);
@@ -271,6 +275,10 @@ header p{
 }
 .brand-text{
     color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.brand-text2{
+    color: #fff !important;
 }
 .navbar
 {
