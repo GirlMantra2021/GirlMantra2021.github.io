@@ -319,7 +319,7 @@ header p{
     height: 135px;
     margin: 0 auto;
     /* padding-top: 2.5%; */
-    background: linear-gradient(90.8deg, #B3FBC7 0%, #FCFFDA 100%);
+    background: linear-gradient(90.8deg, #F5B8FF 0%, #FFBE45 100%);
     border-radius: 24px;
     display: flex;
     flex-direction: row;
@@ -381,7 +381,7 @@ header p{
 .grid-container{
     display: grid;
     margin-right: 10%;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(219px, auto);
     grid-gap: 48px;
     justify-content: space-around;
@@ -407,6 +407,59 @@ header p{
     letter-spacing: 0.5px;
     padding-right: 8%;
 }
+
+/* video */
+.wrapper {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .blurEffect {
+    -webkit-filter: blur(7px);
+    -o-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);
+  }
+  
+  .content {
+    position: absolute;
+    display: inline-block;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  .play {
+    font-size: 50px;
+    cursor: pointer;
+    border: 2px solid #FFF;
+    border-radius: 200rem;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 33px 24px;
+  }
+  
+  .play:hover {
+    color: red;
+  }
+
+  .play-bg{
+    background-color: rgba(128,	102,	1, 0.25)
+  }
+  .support-image{
+    height: auto;
+    width: 100%;
+  }
+  .curve-border{
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
 
 /* chapter 3 */
 
@@ -501,7 +554,7 @@ header p{
 .flex-scroll{
     margin-left: 70px;
     display: flex;
-    width: 586px;
+    width: 660px;
     height: 54px !important;
     flex-direction: row !important;
     justify-content: space-around;
@@ -524,7 +577,7 @@ header p{
 
 .effect{
     height: 42px !important;
-    width: 212px;
+    width: 226px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -540,7 +593,7 @@ header p{
 }
 .effect3{
     height: 42px !important;
-    width: 122px;
+    width: 129px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -571,6 +624,66 @@ header p{
     top: 0;
     align-self: flex-start;
 }
+
+/* testinomials */
+#testimonials
+{
+  padding: 25% 5% 7%;
+  background: #04000E;
+}
+.carousel-item{
+    height: 32rem;
+    /* background: #000; */
+    background: linear-gradient(90.8deg, #F5B8FF 0%, #FFBE45 100%);
+    /* color: white; */
+    position: relative;
+  }
+  .container-carousel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px;
+    padding-bottom: 157px;
+  }
+  .overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  
+  .purchase-btn{
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  
+  .test-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+  }
+
+  .name-center{
+    text-align: center;
+  }
+
+  .quote{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30.1965px;
+    line-height: 35px;
+    text-align: center;
+    
+    /* Dark Theme/Text/Black/Active */
+    
+    color: rgba(0, 0, 0, 0.9);
+  }
 
 /* chapter 4 */
 
@@ -877,8 +990,8 @@ header p{
 
 .points{
     padding-top: 48px;
-    padding-left: 2%;
-    line-height: 43px;
+    padding-left: 0%;
+    line-height: 24px;
 }
 
 /* bio section */

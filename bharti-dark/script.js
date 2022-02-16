@@ -14,6 +14,28 @@ function splitScroll(){
 
 splitScroll();
 
+var myVideo = document.getElementById('exampleVideo');
+function playvid(){
+    if (myVideo.paused) {
+        myVideo.play();
+        myVideo.controls = true;
+        $('.c1').hide();
+        // console.log('Video Playing');
+    } else {
+        myVideo.pause();
+        myVideo.controls = false;
+        $('.c1').show();
+        // console.log('Video Paused');
+    }
+};
+function check(){
+    if(myVideo.paused){
+        $('.c1').show();
+        myVideo.controls = false;
+        $(myVideo).get(0).currentTime = 0;
+    }
+}
+
 
 
 // //Event-listner
