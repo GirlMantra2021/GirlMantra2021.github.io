@@ -272,6 +272,11 @@ header p{
 }
 
 /* Navbar */
+.fs2rem{
+    color: #000000 !important;
+}
+
+
 
 .navbar-nav{
     background: rgba(234, 234, 234, 0.45);
@@ -284,6 +289,9 @@ header p{
 }
 .brand-text{
     color: rgba(0, 0, 0, 0.9) !important;
+}
+.brand-text2{
+    color: #fff !important;
 }
 .navbar
 {
@@ -435,13 +443,29 @@ header p{
 }
 
 .head-text{
+    margin-top: 32%;
     font-family: Classica Pro;
     font-style: italic;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 130%;
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
+}
+.pr1{
+    padding-right: 11%;
+}
+
+.pr2{
+    padding-right: 43%;
+}
+
+.pr3{
+    padding-right: 9%;
+}
+
+.pr4{
+    padding-right: 39%;
 }
 
 .p-text{
@@ -470,6 +494,7 @@ header p{
     width: 70%;
     font-size: 18px;
     line-height: 30px;
+    padding-bottom: 186px;
 }
 
 .flex-scroll{
@@ -504,7 +529,30 @@ header p{
     border-radius: 200px;
     color: rgba(0, 0, 0, 0.9) !important;
 }
-
+.effect2{
+    height: 42px !important;
+    width: 123px;
+    padding-top: 11px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
+    border-radius: 200px;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+.effect3{
+    height: 42px !important;
+    width: 108px;
+    padding-top: 11px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
+    border-radius: 200px;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+.effect4{
+    height: 42px !important;
+    width: 156px;
+    padding-top: 11px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
+    border-radius: 200px;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
 .sticky-nav{
     position: fixed;
     top: 80px;
