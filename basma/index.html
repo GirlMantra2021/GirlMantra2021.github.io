@@ -152,7 +152,7 @@
         <section class="pause">
             <div class="about-pages">
                 <div id="first">
-                    <h2 class="head-text">Understanding PCOS </h2>
+                    <h2 class="head-text pr1">Understanding PCOS </h2>
                     <p class="p-text" id="first-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
@@ -160,7 +160,7 @@
                     </p>
                 </div>
                 <div id="second">
-                    <h2 class="head-text">My go to Recipes </h2>
+                    <h2 class="head-text pr2">My go to Recipes </h2>
                     <p class="p-text" id="second-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
@@ -168,7 +168,7 @@
                     </p>
                 </div>
                 <div id="third">
-                    <h2 class="head-text">Adapting the med diet to your culture</h2>
+                    <h2 class="head-text pr3">Adapting the med diet to your culture</h2>
                     <p class="p-text" id="third-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
@@ -176,7 +176,7 @@
                     </p>
                 </div>
                 <div id="fourth">
-                    <h2 class="head-text">My go to Recipes 2</h2>
+                    <h2 class="head-text pr4">My go to Recipes 2</h2>
                     <p class="p-text" id="fourth-sub">
                         Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
                         Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
@@ -187,77 +187,9 @@
                 </div>
             </div>
             <div class="image-title">
-                <!-- <div class="sticky-nav2" id="picky">
-                    <div class="flex-scroll">
-                        <div class="effect scroll-font">Understanding PCOS</div>
-                        <div class="scroll-font">Med Score</div>
-                        <div class="scroll-font">Recipes</div>
-                        <div class="scroll-font">Live Cook-along</div>
-                    </div>
-                </div> -->
                 <img src="assests/chap3.png" class="" id="myImage" alt="" srcset="">
             </div>
         </section>
-        <!-- <div class="grid u-pt-0">
-            <div class="grid md-col-1">
-                <div class="u-position-relative u-pr-2">
-                    <div class="sticky-nav-wrapper">
-                        <div class="sticky-nav">
-                            <a href="#understandingPCOS" class = "sticky-nav-link u-focus-white"> Understanding PCOS </a>
-                            <a href="#medScore" class = "sticky-nav-link u-focus-white"> Med Score </a>
-                            <a href="#recipies" class = "sticky-nav-link u-focus-white"> Recipies </a>
-                            <a href="#liveCookAlong" class = "sticky-nav-link u-focus-white"> Live Cook Along </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="u-position-relative"></div>
-            </div>
-        </div>
-        <div class="scrollHalf">
-  
-            <div class="scrollHalf__grupo" data-scroll>
-              <div class="scrollHalf__grupo__imagen">
-                <img src="assests/chap3.png" />
-              </div>
-              <div class="scrollHalf__grupo__contenido">
-                <h2>Understanding PCOS </h2>
-                <p>
-                    Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
-                    Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
-                    from around the world focusing on the intersecting spheres of process, making and industrial production.
-                </p>
-              </div>
-            </div>
-            
-            <div class="scrollHalf__grupo kk" data-scroll>
-              <div class="scrollHalf__grupo__imagen">
-                <img src="assests/chap3.png" />
-              </div>
-              <div class="scrollHalf__grupo__contenido">
-                <h2>My go to Recipes</h2>
-                <p>
-                    Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
-                    Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
-                    from around the world focusing on the intersecting spheres of process, making and industrial production.
-                </p>
-              </div>
-            </div>
-            
-            <div class="scrollHalf__grupo" data-scroll>
-              <div class="scrollHalf__grupo__imagen">
-                <img src="assests/chap3.png" />
-              </div>
-              <div class="scrollHalf__grupo__contenido">
-                <h2>Adapting the med diet to your culture</h2>
-                <p>
-                    Designed by Women, an initiative of the Stewart Program for Modern Design in collaboration with the Montreal
-                    Museum of Fine Arts, will bring greater visibility to the contributions of a diverse group of women designers
-                    from around the world focusing on the intersecting spheres of process, making and industrial production.
-                </p>
-              </div>
-            </div> 
-            
-          </div> -->
     </section>
     <!-- mobile scroll section -->
     <section class="mobile-view">
@@ -447,9 +379,9 @@
         var picky = document.getElementById('picky');
         function removeClass(){
             a.classList.remove('effect');
-            b.classList.remove('effect');
-            c.classList.remove('effect');
-            d.classList.remove('effect');
+            b.classList.remove('effect2');
+            c.classList.remove('effect3');
+            d.classList.remove('effect4');
         }
         var image = document.getElementById("myImage");
         var waypoint = new Waypoint({
@@ -476,7 +408,7 @@
             image.src = "assests/basma1.png";
             image.classList.add("animate__animated", "animate__fadeIn");
             removeClass();
-            b.classList.add('effect');
+            b.classList.add('effect2');
             }
         })
         var waypoint01 = new Waypoint({
@@ -493,7 +425,7 @@
             image.src = "assests/basma2.png";
             image.classList.add("animate__animated", "animate__fadeIn");
             removeClass();
-            c.classList.add('effect');
+            c.classList.add('effect3');
             }
         })
         var waypoint02 = new Waypoint({
@@ -509,7 +441,7 @@
             image.src = "assests/basma7.png";
             image.classList.add("animate__animated", "animate__fadeIn");
             removeClass();
-            d.classList.add('effect');
+            d.classList.add('effect4');
             }
         })
         var waypoint03 = new Waypoint({
