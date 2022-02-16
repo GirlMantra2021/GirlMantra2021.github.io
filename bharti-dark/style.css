@@ -453,19 +453,20 @@ header p{
     color: rgba(255, 255, 255, 0.9);
 }
 .pr1{
-    padding-right: 11%;
+    padding-right: 23%;
 }
 
 .pr2{
-    padding-right: 43%;
+    padding-right: 27%;
 }
 
 .pr3{
-    padding-right: 9%;
+    padding-right: 47%;
 }
 
 .pr4{
-    padding-right: 39%;
+    padding-right: 42%;
+    padding-bottom: 3%;
 }
 
 .p-text{
@@ -523,7 +524,7 @@ header p{
 
 .effect{
     height: 42px !important;
-    width: 183px;
+    width: 212px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -531,7 +532,7 @@ header p{
 }
 .effect2{
     height: 42px !important;
-    width: 123px;
+    width: 154px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -539,7 +540,7 @@ header p{
 }
 .effect3{
     height: 42px !important;
-    width: 108px;
+    width: 122px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -547,7 +548,7 @@ header p{
 }
 .effect4{
     height: 42px !important;
-    width: 156px;
+    width: 100px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -654,6 +655,10 @@ header p{
     line-height: 135%;
     letter-spacing: 0.15px;
     color: rgba(255, 255, 255, 0.9);
+}
+
+.decode-height{
+    height: 69% !important;
 }
 
 /* chapter 5 */

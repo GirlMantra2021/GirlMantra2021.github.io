@@ -4,7 +4,7 @@ function splitScroll(){
     const controller = new ScrollMagic.Controller();
 
     new ScrollMagic.Scene({
-        duration: '300%',
+        duration: '320%',
         triggerElement: '.image-title',
         triggerHook: 0
     })
