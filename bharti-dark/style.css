@@ -116,7 +116,7 @@ body{
 /* header */
 #hero{
     /* background-color: #fffbf2; */
-    background-image: linear-gradient(#fffbf2 0%, #fffbf2 83%, #04000E 0%, #04000E 17%);
+    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84%, #04000E 0%, #04000E 16%);
     box-shadow: 4px 0px 36px rgba(49, 49, 49, 0.4);
     /* height: 100vh; */
 }
@@ -131,7 +131,7 @@ header h1{
     padding-bottom: 102px;
     font-style: normal;
     font-weight: bold;
-    font-size: 42px;
+    font-size: 36px;
     line-height: 120%;
     color: rgba(0, 0, 0, 0.9);
     width: 559px;
@@ -190,6 +190,7 @@ header h5{
     font-family: Inter;
     /* font-style: italic; */
     font-weight: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 135%;
     padding-left: 8px;
@@ -235,11 +236,11 @@ header h5{
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    width: 271px;
+    width: 286px;
     height: 43px;
     margin-top: 5%;
     background: #FFD426;
-    border: 1px solid #FFD426;
+    border: 1px solid #000;
     border-radius: 24px;
     margin-bottom: 20px;
 }
@@ -322,8 +323,8 @@ header p{
 /* following section can be changed */
 .hero-image1{
     position: relative;
-    left: 14%;
-    width: 86%;
+    left: 10%;
+    width: 90%;
 }
 
 /* Navbar end */
