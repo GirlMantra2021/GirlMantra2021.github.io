@@ -1145,6 +1145,7 @@ header p{
         font-size: 28px;
     }
     .h-text{
+        margin-bottom: 18px;
         font-size: 14px;
         padding-right: 35%;
     }
@@ -1308,6 +1309,10 @@ header p{
         padding-left: 119px;
         margin-bottom: 100px;
     }
+    .quote{
+        font-size: 16.1965px;
+        line-height: 1.35;
+    }
     .chap4-subtext{
         padding-left: 0;
         padding-right: 0;
@@ -1325,6 +1330,7 @@ header p{
         padding-right: 6%;
     }
     header h1 {
+        margin-top: 60px;
         padding-right: 32%;
         font-size: 26px;
     }
@@ -1353,6 +1359,7 @@ header p{
         padding-bottom: 80px;
     }
     .grid-item1{
+        padding-right: 0;
         font-size: 16px;
     }
     .grid-item2{
