@@ -113,6 +113,9 @@ body{
 .hero-image{
     flex-shrink: 1;
 }
+.hero-content{
+    padding-bottom: 20px;
+}
 
 /* header */
 #hero{
@@ -329,8 +332,8 @@ header p{
 /* following section can be changed */
 .hero-image1{
     position: relative;
-    left: 0%;
-    width: 100%;
+    left: 1%;
+    width: 99%;
 }
 
 /* Navbar end */
