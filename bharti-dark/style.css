@@ -24,6 +24,10 @@ html,body {
     display: inline-block;
     font-size: 16px;
 }
+.rmore{
+    cursor: pointer;
+    color: #D4EDFA;
+}
 
 * {
     padding: 0;
@@ -872,7 +876,7 @@ header p{
 }
 
 .subcontainer{
-    margin-top: 40%;
+    margin-top: 22%;
     /* padding-left: 10%; */
     display: flex;
     /* flex-wrap: wrap; */
