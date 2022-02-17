@@ -120,7 +120,7 @@ body{
 /* header */
 #hero{
     /* background-color: #fffbf2; */
-    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.9%, #04000E 0%, #04000E 15.1%);
+    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.8%, #04000E 0%, #04000E 15.2%);
     box-shadow: 4px 0px 36px rgba(49, 49, 49, 0.4);
     /* height: 100vh; */
 }
@@ -332,8 +332,12 @@ header p{
 /* following section can be changed */
 .hero-image1{
     position: relative;
-    left: 1%;
-    width: 99%;
+    left: 0;
+    width: 40vw;
+    background: url(assests/hero-image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Navbar end */
