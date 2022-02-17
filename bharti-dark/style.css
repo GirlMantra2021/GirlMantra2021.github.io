@@ -1495,4 +1495,18 @@ header p{
     .points{
         padding-right: 20px;
     }
+    .support-image{
+        width: 103%;
+    }
+    .faq-text{
+        font-size: 13px;
+    }
+    .accordion-button{
+        font-size: 14px;
+    }
+    .play{
+        font-size: 41px;
+        height: 85px;
+        padding: 29px 19px; 
+    }
 }
