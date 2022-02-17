@@ -292,6 +292,11 @@ header h5{
     margin-bottom: 20px;
 }
 
+.b-style{
+    width: 17%; 
+    margin: 5% auto;
+}
+
 .header-btn2:hover{
     background: rgba(118,99,18,1);
 }
@@ -1209,7 +1214,7 @@ header p{
         height: auto;
     }
     .hero-image1{
-        width: 100%;
+        /* width: 100%; */
         left: 0;
     }
     .chapter2-header h1{
@@ -1236,7 +1241,7 @@ header p{
     }
     .hero-image1 {
         width: 345px;
-        height: auto;
+        /* height: auto; */
     }
     .chapter2-header h1{
         padding-right: 31%;
@@ -1387,7 +1392,7 @@ header p{
         padding-left: 119px;
     }
     .course-subtext{
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         padding-left: 119px;
         /* margin-bottom: 100px; */
     }
@@ -1421,7 +1426,7 @@ header p{
     }
     .hero-image1 {
         width: 358px;
-        height: auto;
+        /* height: auto; */
     }
     .mhero-bottom{
         font-size: 17px;
@@ -1475,11 +1480,12 @@ header p{
         height: 28px;
     }
     .course-image-1 {
-        margin-top: 0;
+        display: none;
+        /* margin-top: 0;
         width: 92%;
         padding-right: 2%;
         height: auto;
-        padding-left: 6%;
+        padding-left: 6%; */
     }
 
     .bio-lmar{
@@ -1561,8 +1567,8 @@ header p{
     }
     .order2{
         order: 2;
-        margin-top: 100%;
-        margin-bottom: 100%;
+        margin-top: 36%;
+        margin-bottom: 50%;
     }
     .m-text{
         margin-top: 2%;
@@ -1589,5 +1595,25 @@ header p{
         font-size: 41px;
         height: 85px;
         padding: 29px 19px; 
+    }
+    .hero-image {
+        position: relative;
+        left: 3px;
+    }
+    .h-text{
+        padding-right: 40%;
+    }
+    .subtext-container {
+        margin-top: 30px;
+    }
+    .header-btn2{
+        margin-bottom: 62px;
+    }
+    .b-style {
+        width: 56%;
+        margin: 10% auto;
+    }
+    .header-btn{
+        width: 283px;
     }
 }
