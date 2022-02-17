@@ -1306,8 +1306,9 @@ header p{
         padding-left: 119px;
     }
     .course-subtext{
+        margin-bottom: 30px;
         padding-left: 119px;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     }
     .quote{
         font-size: 16.1965px;
