@@ -156,7 +156,7 @@
                 <div class="flex-scroll">
                     <div class="scroll-font" id="a">Pregnancy & Labour Toolkit</div>
                     <div class="scroll-font" id="b">Natural Birth Prep</div>
-                    <div class="scroll-font" id="c">Prenetal Yoga</div>
+                    <div class="scroll-font" id="c">Prenatal Yoga</div>
                     <div class="scroll-font" id="d">Bonuses</div>
                 </div>
             </div>
@@ -210,7 +210,7 @@
                 </div>
             </div>
             <div class="image-title">
-                <img src="assests/pic1.png" class="" id="myImage" alt="" srcset="">
+                <img src="" class="" id="myImage" alt="" srcset="">
             </div>
         </section>
     </section>
@@ -270,6 +270,7 @@
             <div class="carousel-item active">
               <div class="overlay-image"></div>
               <div class="container container-carousel">
+                <h2 class="test-margin quote mft">Praise For Bharti</h2><br>
                 <h2 class="test-margin quote mft">My back was killing me all day as I am almost 7 months along. I’m very uncomfortable and this video helped. Thank you again!</h2>
                 <p class="name-center"><em>--KD Suam</em></p>
               </div>
@@ -277,6 +278,7 @@
             <div class="carousel-item">
               <div class="overlay-image"></div>
               <div class="container container-carousel">
+                <h2 class="test-margin quote mft">Praise For Bharti</h2><br>
                 <h2 class="test-margin quote mft">I’ve started following your video every morning before I go about my day, and it’s been exactly what my routine was missing!</h2>
                 <p class="name-center"><em>--Adrian Mefford</em></p>
               </div>
@@ -284,6 +286,7 @@
             <div class="carousel-item">
               <div class="overlay-image"></div>
               <div class="container container-carousel">
+                <h2 class="test-margin quote mft">Praise For Bharti</h2><br>
                 <h2 class="test-margin quote mft">I’m 6 months pregnant and woke up with terrible back pain and felt very stiff. Your video is easy to follow and voice is so soothing. I feel so much better already. Thank you.</h2>
                 <p class="name-center"><em>--Rebecca Murphy</em></p>
               </div>
@@ -291,6 +294,7 @@
             <div class="carousel-item">
               <div class="overlay-image"></div>
               <div class="container container-carousel">
+                <h2 class="test-margin quote mft">Praise For Bharti</h2><br>
                 <h2 class="test-margin quote mft">I wanted to thank you for your wonderful YouTube channel and this 8 week program. I wish you many more success for changing the lives of many more people.</h2>
                 <p class="name-center"><em>--Christie Sloyer</em></p>
               </div>
@@ -606,7 +610,7 @@
             element: document.getElementById('first'),
             handler: function(direction) {
             image.src = "assests/pic1.png";
-            image.classList.add("animate__animated", "animate__fadeIn");
+            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             removeClass();
             a.classList.add('effect');
             }
@@ -615,7 +619,7 @@
         var waypoint0 = new Waypoint({
             element: document.getElementById('first-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn");
+            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             }
         })
 
@@ -624,7 +628,7 @@
             handler: function(direction) {
             console.log("working 2")
             image.src = "assests/pic2.png";
-            image.classList.add("animate__animated", "animate__fadeIn");
+            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             removeClass();
             b.classList.add('effect2');
             }
@@ -632,7 +636,7 @@
         var waypoint01 = new Waypoint({
             element: document.getElementById('second-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn");
+            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             }
         })
 
@@ -641,7 +645,7 @@
             handler: function(direction) {
             console.log("working 3")
             image.src = "assests/pic3.png";
-            image.classList.add("animate__animated", "animate__fadeIn");
+            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             removeClass();
             c.classList.add('effect3');
             }
@@ -649,7 +653,7 @@
         var waypoint02 = new Waypoint({
             element: document.getElementById('third-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn");
+            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             }
         })
 
@@ -657,7 +661,7 @@
             element: document.getElementById('fourth'),
             handler: function(direction) {
             image.src = "assests/pic4.png";
-            image.classList.add("animate__animated", "animate__fadeIn");
+            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             removeClass();
             d.classList.add('effect4');
             }
@@ -665,7 +669,7 @@
         var waypoint03 = new Waypoint({
             element: document.getElementById('fourth-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn");
+            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             picky.classList.add('sticky-nav');
             }
         })

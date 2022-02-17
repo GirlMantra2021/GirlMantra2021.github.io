@@ -3,7 +3,10 @@ html,body {
     padding:0;
     overflow-x:hidden;
 }
-
+/* :root {
+    --animate-duration: 2000ms;
+    --animate-delay: 2s;
+} */
 
 * {
     padding: 0;
@@ -390,6 +393,7 @@ header p{
 }
 
 .chapter2-header h1 {
+    margin-bottom: 5%;
     width: 100vw;
     padding-right: 45%;
     height: 100px;
@@ -418,8 +422,8 @@ header p{
 
 .grid-item1{
     font-family: Classica Pro;
+    font-weight: 400;
     font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 140%;
     padding-right: 20%;
