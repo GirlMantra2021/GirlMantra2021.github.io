@@ -1461,6 +1461,7 @@ header p{
     }
     .chapter1-subtext {
         font-size: 13px;
+        padding-right: 29%;
     }
     .hero-image1 {
         width: 358px;
@@ -1637,8 +1638,9 @@ header p{
         padding: 29px 19px; 
     }
     .hero-image {
-        position: relative;
-        left: 3px;
+        /* position: relative; */
+        /* left: 3px; */
+        position: static;
     }
     .h-text{
         padding-right: 40%;
@@ -1659,5 +1661,8 @@ header p{
     .grid-image-m{
         width: 308px !important;
         height: auto !important;
+    }
+    .head-text{
+        text-align: left;
     }
 }
