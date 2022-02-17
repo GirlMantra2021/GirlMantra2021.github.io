@@ -20,7 +20,8 @@ a {
 }
 a:hover {
     /* color: #613b1a !important; */
-    color: rgba(118,99,18,1);
+    /* color: rgba(118,99,18,1); */
+    color: #fff;
     /* text-decoration: 0 !important; */
 }
 
@@ -129,6 +130,7 @@ body{
 header h1{
     font-family: Classica Pro;
     padding-bottom: 102px;
+    padding-right: 12%;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -245,6 +247,10 @@ header h5{
     margin-bottom: 20px;
 }
 
+.header-btn:hover{
+    background: rgba(118,99,18,1);
+}
+
 header p{
     margin-bottom: 0;
 }
@@ -323,8 +329,8 @@ header p{
 /* following section can be changed */
 .hero-image1{
     position: relative;
-    left: 10%;
-    width: 90%;
+    left: 7%;
+    width: 93%;
 }
 
 /* Navbar end */
