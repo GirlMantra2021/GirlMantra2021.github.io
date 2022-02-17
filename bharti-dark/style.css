@@ -8,6 +8,23 @@ html,body {
     --animate-delay: 2s;
 } */
 
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+.read-more {
+    background-color: #FFD426;
+    margin-bottom: 20px;
+    border: none;
+    color: #000;
+    border-radius: 1rem;
+    padding: 6px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 * {
     padding: 0;
     box-sizing: border-box;
