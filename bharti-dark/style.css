@@ -116,7 +116,7 @@ body{
 /* header */
 #hero{
     /* background-color: #fffbf2; */
-    background-image: linear-gradient(#fffbf2 0%, #fffbf2 82.9%, #04000E 0%, #04000E 17.1%);
+    background-image: linear-gradient(#fffbf2 0%, #fffbf2 83%, #04000E 0%, #04000E 17%);
     box-shadow: 4px 0px 36px rgba(49, 49, 49, 0.4);
     /* height: 100vh; */
 }
@@ -128,7 +128,7 @@ body{
 
 header h1{
     font-family: Classica Pro;
-    padding-bottom: 120px;
+    padding-bottom: 102px;
     font-style: normal;
     font-weight: bold;
     font-size: 42px;
@@ -192,7 +192,7 @@ header h5{
     font-weight: normal;
     font-size: 16px;
     line-height: 135%;
-    padding-left: 20px;
+    padding-left: 8px;
 
     letter-spacing: 0.5px;
 
@@ -201,7 +201,8 @@ header h5{
 
 .m-text{
     font-family: Inter;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 7%;
     padding-bottom: 5%;
     font-style: normal;
     font-weight: normal;
@@ -236,7 +237,7 @@ header h5{
     padding: 12px 24px;
     width: 271px;
     height: 43px;
-    margin-top: 3%;
+    margin-top: 5%;
     background: #FFD426;
     border: 1px solid #FFD426;
     border-radius: 24px;
@@ -321,8 +322,8 @@ header p{
 /* following section can be changed */
 .hero-image1{
     position: relative;
-    left: 16%;
-    width: 84%;
+    left: 14%;
+    width: 86%;
 }
 
 /* Navbar end */
@@ -441,7 +442,7 @@ header p{
     display: inline-block;
     transform: translate(-50%,-50%);
     top: 50%;
-    left: 50%;
+    left: 54%;
     color: #FFF;
     width: 100%;
     text-align: center;
@@ -468,7 +469,7 @@ header p{
   }
   .support-image{
     height: auto;
-    width: 100%;
+    width: 108%;
   }
   .curve-border{
     border-radius: 1rem 1rem 1rem 1rem;
@@ -509,7 +510,7 @@ header p{
 }
 
 .head-text{
-    margin-top: 32%;
+    margin-top: 36%;
     font-family: Classica Pro;
     font-style: italic;
     font-weight: normal;
@@ -528,11 +529,12 @@ header p{
 
 .pr3{
     padding-right: 47%;
+    padding-top: 5%;
 }
 
 .pr4{
     padding-right: 42%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .p-text{
@@ -559,9 +561,9 @@ header p{
 
 .about-pages div>p {
     width: 70%;
-    font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 186px;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-bottom: 268px;
 }
 
 .flex-scroll{
@@ -784,7 +786,7 @@ header p{
 }
 
 .decode-height{
-    height: 69% !important;
+    height: 71% !important;
 }
 
 /* chapter 5 */
