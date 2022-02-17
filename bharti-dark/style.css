@@ -117,7 +117,7 @@ body{
 /* header */
 #hero{
     /* background-color: #fffbf2; */
-    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84%, #04000E 0%, #04000E 16%);
+    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.9%, #04000E 0%, #04000E 15.1%);
     box-shadow: 4px 0px 36px rgba(49, 49, 49, 0.4);
     /* height: 100vh; */
 }
@@ -216,8 +216,8 @@ header h5{
 }
 
 .dp{
-    width: 85px;
-    height: 42px;
+    width: 70px;
+    height: 34px;
 }
 
 .header-btn-txt{
@@ -329,8 +329,8 @@ header p{
 /* following section can be changed */
 .hero-image1{
     position: relative;
-    left: 7%;
-    width: 93%;
+    left: 4%;
+    width: 96%;
 }
 
 /* Navbar end */
