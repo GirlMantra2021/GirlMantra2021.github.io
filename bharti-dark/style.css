@@ -1701,8 +1701,8 @@ header p{
     .hero-image1 {
         width: 345px;
     }
-    .header h1{
-        padding-right: 46%;
+    .pqr{
+        padding-right: 46% !important;
     }
     .b-style{
         width: 63%;
