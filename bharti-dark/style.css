@@ -275,7 +275,9 @@ header h5{
 }
 
 .header-btn:hover{
-    background: rgba(118,99,18,1);
+    /* background: rgba(118,99,18,1); */
+    background: #B3FBC7;
+    color: #000;
 }
 .header-btn2{
     display: flex;
@@ -298,7 +300,9 @@ header h5{
 }
 
 .header-btn2:hover{
-    background: rgba(118,99,18,1);
+    /* background: rgba(118,99,18,1); */
+    background: #B3FBC7;
+    color: #000;
 }
 
 header p{
@@ -1206,6 +1210,9 @@ header p{
     background: #04000E;
     border-radius: 33.3323px;
     color: rgba(255, 255, 255, 0.9); ;
+  }
+  .fbutton:hover{
+      color: #fff;
   }
 /* end  */
 
