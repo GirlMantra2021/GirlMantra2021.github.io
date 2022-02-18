@@ -3,10 +3,7 @@ html,body {
     padding:0;
     overflow-x:hidden;
 }
-/* :root {
-    --animate-duration: 2000ms;
-    --animate-delay: 2s;
-} */
+
 
 #more {display: none;}
 #more2 {display: none;}
@@ -405,7 +402,7 @@ header p{
     position: relative;
     left: 0;
     width: 40vw;
-    background: url(assests/hero-image.png);
+    background: url(assests/hero-image.webp);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -442,7 +439,7 @@ header p{
 }
 
 .chapter2{
-    cursor: url('assests/lipstick.png'), auto;
+    cursor: url('assests/lipstick.webp'), auto;
     /* cursor: &#129329; */
 }
 
