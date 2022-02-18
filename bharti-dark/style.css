@@ -1694,4 +1694,10 @@ header p{
     .hero-image1 {
         width: 345px;
     }
+    .header h1{
+        padding-right: 46%;
+    }
+    .b-style{
+        width: 63%;
+    }
 }
