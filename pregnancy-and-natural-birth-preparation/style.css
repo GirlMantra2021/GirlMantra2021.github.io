@@ -1694,7 +1694,7 @@ header p{
         text-align: left;
     }
     .flex-container{
-        bottom: 0px;
+        bottom: -20px;
     }
     .child{
         margin: 18px 30px;
