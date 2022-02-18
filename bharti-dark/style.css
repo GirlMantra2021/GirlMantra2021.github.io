@@ -1458,6 +1458,7 @@ header p{
         margin-top: 60px;
         padding-right: 32%;
         font-size: 26px;
+        padding-bottom: 72px;
     }
     .chapter1-subtext {
         font-size: 13px;
@@ -1664,5 +1665,24 @@ header p{
     }
     .head-text{
         text-align: left;
+    }
+    .flex-container{
+        bottom: 0px;
+    }
+    .child{
+        margin: 18px 30px;
+    }
+    .navbar-toggler{
+        background-color: #000;
+    }
+}
+
+@media all and (max-device-width: 386px){
+    .hero-image {
+        position: relative;
+        right: 10px;
+    }
+    .chapter1-subtext {
+        padding-right: 48%;
     }
 }
