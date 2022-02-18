@@ -28,6 +28,26 @@ html,body {
     cursor: pointer;
     color: #D4EDFA;
 }
+/* footer */
+#footer{
+    padding: 7% 15%;
+}
+.white-section {
+    text-align: center;
+    background-color: #fff;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.fs3rem{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+}
+/* end  */
 
 * {
     padding: 0;
@@ -1681,6 +1701,9 @@ header p{
     }
     .navbar-toggler{
         background-color: #000;
+    }
+    .fs3rem{
+        font-size: 13px;
     }
 }
 
