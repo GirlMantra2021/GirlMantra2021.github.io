@@ -1691,4 +1691,7 @@ header p{
     .hero-image{
         right: 15px;
     }
+    .hero-image1 {
+        width: 345px;
+    }
 }
