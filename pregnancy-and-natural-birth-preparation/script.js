@@ -100,14 +100,20 @@ function myFunction() {
 
   var A = document.querySelector('.A-test');
   var B = document.querySelector('.B-test'); 
-  x = Math.floor(Math.random() * 2);
-  // console.log('x = ', x);
 
-  if(x==0){
-    // renders A section 
-    B.classList.add('off')
-  } else if (x==1){
-    // renders B Section
-    A.classList.add('off');
+  if(localStorage.getItem('x-value')===null){
+    x = Math.floor(Math.random() * 2);
+    localStorage.setItem('x-value',x);
   }
 
+  
+  // console.log('x = ', x);
+  if(localStorage.getItem('x-value')!=null){
+    if(localStorage.getItem('x-value')==0){
+      // renders A section 
+      B.classList.add('off')
+    } else if (localStorage.getItem('x-value')==1){
+      // renders B Section
+      A.classList.add('off');
+    }
+  }
