@@ -593,7 +593,8 @@ header p{
   }
   
   .play:hover {
-    color: red;
+    /* color: red; */
+    color: cyan;
   }
 
   .play-bg{
