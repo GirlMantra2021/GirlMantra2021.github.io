@@ -98,4 +98,16 @@ function myFunction() {
     window.location = "https://youtube.com/playlist?list=PL_UNwumabFwXn1JXG_kvPkj8DnIX-8639";
   }
 
+  var A = document.querySelector('.A-test');
+  var B = document.querySelector('.B-test'); 
+  x = Math.floor(Math.random() * 2);
+  // console.log('x = ', x);
+
+  if(x==0){
+    // renders A section 
+    B.classList.add('off')
+  } else if (x==1){
+    // renders B Section
+    A.classList.add('off');
+  }
 
