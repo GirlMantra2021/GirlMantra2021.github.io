@@ -709,12 +709,17 @@ header p{
     color: rgba(0, 0, 0, 0.9) !important;
 }
 .sticky-nav{
-    position: fixed;
-    top: 80px;
+    position: fixed !important;
+    top: 80px !important;
     /* z-index: 22;
     display: inline-block;
     margin-top: 60px;
     margin-bottom: 60px; */
+}
+
+.rel-stick{
+    position: relative;
+    top: 120px;
 }
 .sticky-nav2{
     position: relative;

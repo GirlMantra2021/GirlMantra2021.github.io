@@ -161,7 +161,7 @@
         <div class="chap3-header" id="sticky">
             <hr style="color: #04000E;" id="remove-stick2">
             <h1 style="margin-bottom: 10%;" id="to-stick">What you’ll learn in this course</h1>
-            <div class="" id="picky">
+            <div class="rel-stick" id="picky">
                 <div class="flex-scroll">
                     <div class="scroll-font" id="a">Pregnancy & Labour Toolkit</div>
                     <div class="scroll-font" id="b">Natural Birth Prep</div>
@@ -649,76 +649,161 @@
         var waypoint = new Waypoint({
             element: document.getElementById('first'),
             handler: function(direction) {
-            image.src = "assests/pic1.webp";
-            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
-            removeClass();
-            a.classList.add('effect');
+            if(direction == 'down'){
+              image.src = "assests/pic1.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              a.classList.add('effect');
             }
+            },
+            offset: '50%'
         })
 
         var waypoint0 = new Waypoint({
             element: document.getElementById('first-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+            if(direction == 'down'){
+              image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             }
+            },
+            offset: '40%'
         })
 
         var waypoint1 = new Waypoint({
             element: document.getElementById('second'),
             handler: function(direction) {
-            console.log("working 2")
-            image.src = "assests/pic2.webp";
-            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
-            removeClass();
-            b.classList.add('effect2');
+            if(direction == 'down'){
+              image.src = "assests/pic2.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              b.classList.add('effect2');
             }
+            },
+            offset: '50%'
         })
         var waypoint01 = new Waypoint({
             element: document.getElementById('second-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+            if(direction == 'down'){
+              image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             }
+            },
+            offset: '40%'
         })
 
         var waypoint2 = new Waypoint({
             element: document.getElementById('third'),
             handler: function(direction) {
-            console.log("working 3")
-            image.src = "assests/pic3.webp";
-            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
-            removeClass();
-            c.classList.add('effect3');
+            if(direction == "down"){
+              image.src = "assests/pic3.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              c.classList.add('effect3');
             }
+            },
+            offset: '50%'
         })
         var waypoint02 = new Waypoint({
             element: document.getElementById('third-sub'),
             handler: function(direction) {
-            image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+            if(direction== 'down'){
+              image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
             }
+            },
+            offset: '40%'
         })
 
         var waypoint3 = new Waypoint({
             element: document.getElementById('fourth'),
             handler: function(direction) {
-            image.src = "assests/pic4.webp";
-            image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
-            removeClass();
-            d.classList.add('effect4');
+            if(direction == 'down'){
+              image.src = "assests/pic4.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              d.classList.add('effect4');
             }
+            },
+            offset: '50%'
         })
         var waypoint03 = new Waypoint({
             element: document.getElementById('fourth-sub'),
             handler: function(direction) {
+            if(direction == 'down'){
             image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+            }
+            // picky.classList.add('sticky-nav');
+            },
+            offset: '40%'
+        })
+        var waypoint3u = new Waypoint({
+            element: document.getElementById('fourth'),
+            handler: function(direction) {
+            if(direction == 'up'){
+              image.src = "assests/pic3.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              c.classList.add('effect3');
+            }
+            },
+            offset: '50%'
+        })
+        var waypoint2u = new Waypoint({
+            element: document.getElementById('third'),
+            handler: function(direction) {
+            if(direction == 'up'){
+              image.src = "assests/pic2.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              b.classList.add('effect2');
+            }
+            },
+            offset: '50%'
+        })
+        var waypoint1u = new Waypoint({
+            element: document.getElementById('second'),
+            handler: function(direction) {
+            if(direction == 'up'){
+              image.src = "assests/pic1.webp";
+              image.classList.add("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+              removeClass();
+              a.classList.add('effect');
+            }
+            },
+            offset: '50%'
+        })
+        var waypoint02 = new Waypoint({
+            element: document.getElementById('third-sub'),
+            handler: function(direction) {
+            if(direction== 'up'){
+              image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+            }
+            },
+            offset: '40%'
+        })
+        var waypoint02 = new Waypoint({
+            element: document.getElementById('second-sub'),
+            handler: function(direction) {
+            if(direction== 'up'){
+              image.classList.remove("animate__animated", "animate__fadeIn","animate__delay-0.98s");
+            }
+            },
+            offset: '40%'
+        })
+
+        var waypointNav = new Waypoint({
+            element: document.getElementById('fourth-sub'),
+            handler: function(direction) {
             picky.classList.add('sticky-nav');
             }
+            // offset: '-80%'
         })
 
         var waypoint4 = new Waypoint({
             element: document.getElementById('to-stick'),
             handler: function(direction) {
             picky.classList.add('sticky-nav');
-            }
+            },
+            offset: '-39.5%'
         })
         var waypoint5 = new Waypoint({
             element: document.getElementById('remove-stick'),
@@ -730,7 +815,8 @@
             element: document.getElementById('remove-stick2'),
             handler: function(direction) {
             picky.classList.remove('sticky-nav');
-            }
+            },
+            offset: '-38%'
         })
         var waypoint7 = new Waypoint({
             element: document.getElementById('nav-text'),
