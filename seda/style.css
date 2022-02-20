@@ -478,7 +478,7 @@ header p{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 85%;
     height: auto;
     margin: 0 auto;
     background: linear-gradient(90.8deg, #B3FBC7 0%, #FCFFDA 100%);
@@ -496,7 +496,16 @@ header p{
     font-size: 18px;
     line-height: 140%;
     color: #000000;
+    margin-bottom: -0.5rem;
 
+}
+.comp-img{
+    width: 75%;
+    height: auto;
+}
+
+.child-2{
+    margin: 8px;
 }
 
 .flex-container-comp{
@@ -558,6 +567,8 @@ header p{
 .chapter2-header strong{
     color: #FFD426;
 }
+
+
 
 .grid-container{
     display: grid;
