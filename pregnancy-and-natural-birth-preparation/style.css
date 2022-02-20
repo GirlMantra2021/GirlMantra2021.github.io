@@ -1414,6 +1414,13 @@ header p{
         font-size: 13px;
         margin-bottom: 100px;
     }
+    .chapter2-header h1 {
+        font-size: 33px;
+    }
+    .grid-image-m {
+        width: 550px;
+        height: auto;
+    }
 }
 
 @media all and (max-width: 894px) {
@@ -1506,6 +1513,12 @@ header p{
     }
     .points{
         font-size: 13px;
+    }
+}
+
+@media all and (max-width: 574px){
+    .grid-image-m {
+        width: 95%;
     }
 }
 
