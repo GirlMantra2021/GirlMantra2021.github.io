@@ -654,20 +654,23 @@ header p{
     color: rgba(255, 255, 255, 0.9);
 }
 .pr1{
-    padding-right: 23%;
+    padding-right: 37%;
+    padding-bottom: 1%;
 }
 
 .pr2{
-    padding-right: 27%;
+    padding-right: 41%;
+    padding-bottom: 1%;
 }
 
 .pr3{
-    padding-right: 47%;
+    padding-right: 33%;
     padding-top: 5%;
+    padding-bottom: 1%;
 }
 
 .pr4{
-    padding-right: 42%;
+    padding-right: 32%;
     padding-bottom: 1%;
 }
 
@@ -1212,7 +1215,7 @@ header p{
     margin-top: 12rem;
     text-align: left;
     background-image: linear-gradient(#FFFAE2, #D4EDFA);
-    border-radius: 18px;
+    border-radius: 22px;
     color: #000000;
     /* border: solid; */
     border-width: thin;
@@ -1276,7 +1279,7 @@ header p{
   .fbutton{
     margin-top: 21px;
     margin-left: 40px;
-    width: 210px;
+    width: 295px;
     height: 45px;
     left: 564.24px;
     top: 275px;
