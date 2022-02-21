@@ -1905,6 +1905,30 @@ header p{
     .fs3rem{
         font-size: 13px;
     }
+    .test-container{
+        flex-direction: column;
+        height: 376px;
+        width: 950px;
+    }
+    .video-list{
+        flex-direction: row;
+        width: 108%;
+        justify-content: space-around;
+        height: 20%;
+        padding: 20px;
+        padding-right: 20px;
+        order: 2;
+    }
+
+    .main-video{
+        order: 1;
+        width: 106%;
+    }
+
+    .test01, .test02, .test03, .test04{
+        padding-top: 21.25% !important;
+        width: 50%;
+    } 
 }
 
 @media all and (max-device-width: 386px){
