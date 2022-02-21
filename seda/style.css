@@ -917,6 +917,76 @@ header p{
     color: rgba(0, 0, 0, 0.9);
   }
 
+  /* video-testimonials  */
+
+  .video-font{
+    font-family: Classica Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 130%;
+    text-align: center;
+    color: #EDF0F1;
+  }
+  
+.testimonials-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .test-container {
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 950px;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 14px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 20px;
+    padding-right: 10px;
+  }
+  
+  .video-list iframe {
+    width: 100%;
+    object-fit: cover;
+    height: 105px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .video-list .active,
+  .video-list iframe:hover {
+    background-color: #f1c40f;
+    box-shadow: 0 0 0 2px #333 inset;
+    border-radius: 14px;
+  }
+  
+  .main-video {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .main-video iframe {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    outline: none;
+  }
+
+  .overlay-iframe{
+    top:0;left:0;width:100%;height:100%;position:absolute;
+    cursor: pointer;
+  }
+  /* end  */
+
 /* chapter 4 */
 
 #chap4{
