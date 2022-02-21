@@ -32,6 +32,7 @@ html,body {
 
 .head-text2{
     margin-top: 5%;
+    padding-right: 20%;
     font-family: Classica Pro;
     font-style: italic;
     font-weight: normal;
@@ -219,9 +220,9 @@ body{
 
 header h1{
     font-family: Classica Pro;
-    /* margin-bottom: 36px; */
-    /* padding-bottom: 102px; */
-    padding-right: 10%;
+    margin-bottom: 36px;
+    padding-bottom: 102px;
+    padding-right: 12%;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -274,7 +275,6 @@ header h5{
     height: 33px;
 }
 .subtext-container{
-    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -374,6 +374,7 @@ header p{
     margin-bottom: 0;
 }
 
+
 .course-snapshot{
     width: 1314px;
     height: 155px;
@@ -416,10 +417,18 @@ header p{
     color: #000000 !important;
 }
 
+/* this-section can be removed to get back previous nav effect  */
+
+.nav-link{
+    color: #000 !important;
+}
+
+/* section end  */
 
 
 .navbar-nav{
-    background: rgba(234, 234, 234, 0.45);
+    /* background: rgba(234, 234, 234, 0.45); */
+    background:  #fff176;
     border: 1px solid rgba(255, 251, 251, 0.77);
     border-radius: 12px;
     padding-top: 1%;
@@ -464,7 +473,7 @@ header p{
     height: 135px;
     margin: 0 auto;
     /* padding-top: 2.5%; */
-    background: linear-gradient(90.8deg, #B3FBC7 0%, #FCFFDA 100%);
+    background: linear-gradient(90.8deg, #FBCDB3 0%, #FCFFDA 100%);
     border-radius: 24px;
     display: flex;
     flex-direction: row;
@@ -473,49 +482,6 @@ header p{
     bottom: 78px;
     flex-wrap: wrap;
 }
-.flex-row2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 85%;
-    height: auto;
-    margin: 0 auto;
-    background: linear-gradient(90.8deg, #B3FBC7 0%, #FCFFDA 100%);
-    border-radius: 24px;
-    flex-wrap: wrap;
-
-    margin-bottom: 100px;
-}
-
-.flex-row2 p{
-    padding-top: 20px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 140%;
-    color: #000000;
-    margin-bottom: -0.5rem;
-
-}
-.comp-img{
-    width: 75%;
-    height: auto;
-}
-
-.child-2{
-    margin: 8px;
-}
-
-.flex-container-comp{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 
 .child{
     /* flex: 1 1 200px; */
@@ -530,7 +496,7 @@ header p{
 }
 
 .chapter2{
-    cursor: url('assests/sun.webp'), auto;
+    cursor: url('assests/lipstick.webp'), auto;
     /* cursor: &#129329; */
 }
 
@@ -551,9 +517,9 @@ header p{
 }
 
 .chapter2-header h1 {
-    margin-bottom: 0%;
+    /* margin-bottom: 5%; */
     width: 100vw;
-    padding-right: 67%;
+    padding-right: 45%;
     height: 100px;
     font-family: Termina;
     font-style: normal;
@@ -568,8 +534,6 @@ header p{
     color: #FFD426;
 }
 
-
-
 .grid-container{
     display: grid;
     margin-right: 10%;
@@ -577,7 +541,7 @@ header p{
     grid-auto-rows: minmax(219px, auto);
     grid-gap: 48px;
     justify-content: space-around;
-    padding-bottom: 300px;
+    padding-bottom: 386px;
 }
 
 .grid-item1{
@@ -656,16 +620,6 @@ header p{
 
 /* chapter 3 */
 
-.b-font{
-    font-family: Classica Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 130%;
-    text-align: center;
-    color: #EDF0F1;
-}
-
 #chap3{
     background: #04000E;
     color: rgba(255, 255, 255, 0.9);
@@ -709,23 +663,20 @@ header p{
     color: rgba(255, 255, 255, 0.9);
 }
 .pr1{
-    padding-right: 37%;
-    padding-bottom: 1%;
+    padding-right: 3%;
 }
 
 .pr2{
-    padding-right: 41%;
-    padding-bottom: 1%;
+    padding-right: 15%;
 }
 
 .pr3{
-    padding-right: 33%;
+    padding-right: 29%;
     padding-top: 5%;
-    padding-bottom: 1%;
 }
 
 .pr4{
-    padding-right: 32%;
+    padding-right: 11%;
     padding-bottom: 1%;
 }
 
@@ -784,7 +735,7 @@ header p{
 
 .effect{
     height: 42px !important;
-    width: 173px;
+    width: 226px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -792,7 +743,7 @@ header p{
 }
 .effect2{
     height: 42px !important;
-    width: 141px;
+    width: 154px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -800,7 +751,7 @@ header p{
 }
 .effect3{
     height: 42px !important;
-    width: 187px;
+    width: 129px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -808,7 +759,7 @@ header p{
 }
 .effect4{
     height: 42px !important;
-    width: 147px;
+    width: 100px;
     padding-top: 11px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), #FFA726;
     border-radius: 200px;
@@ -849,7 +800,7 @@ header p{
 .carousel-item{
     height: 32rem;
     /* background: #000; */
-    background: linear-gradient(90.8deg, #F5B8FF 0%, #FFBE45 100%);
+    background: linear-gradient(90.8deg, #FBCDB3 0%, #FCFFDA 100%);
     /* color: white; */
     position: relative;
   }
@@ -916,76 +867,6 @@ header p{
 
     color: rgba(0, 0, 0, 0.9);
   }
-
-  /* video-testimonials  */
-
-  .video-font{
-    font-family: Classica Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 130%;
-    text-align: center;
-    color: #EDF0F1;
-  }
-  
-.testimonials-section .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .test-container {
-    align-items: center;
-    justify-content: center;
-    height: 450px;
-    width: 950px;
-    background-color: #1B1D28;
-    display: flex;
-    border-radius: 14px;
-  }
-  
-  .video-list {
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    padding: 20px;
-    padding-right: 10px;
-  }
-  
-  .video-list iframe {
-    width: 100%;
-    object-fit: cover;
-    height: 105px;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .video-list .active,
-  .video-list iframe:hover {
-    background-color: #f1c40f;
-    box-shadow: 0 0 0 2px #333 inset;
-    border-radius: 14px;
-  }
-  
-  .main-video {
-    width: 80%;
-    padding: 10px;
-  }
-  
-  .main-video iframe {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    outline: none;
-  }
-
-  .overlay-iframe{
-    top:0;left:0;width:100%;height:100%;position:absolute;
-    cursor: pointer;
-  }
-  /* end  */
 
 /* chapter 4 */
 
@@ -1055,8 +936,8 @@ header p{
 .grid-image{
     width: 370px;
     height: auto;
-    /* border: 4px solid rgba(234, 234, 234, 0.45); */
-    /* border-radius: 20px 20px; */
+    border: 4px solid rgba(234, 234, 234, 0.45);
+    border-radius: 20px 20px;
 }
 
 .grid-text{
@@ -1090,7 +971,7 @@ header p{
 }
 
 .course-flex-container{
-    /* padding-top: 359px; */
+    padding-top: 80px !important;
     padding-top: 0;
     display: flex;
     flex-wrap: wrap;
@@ -1287,7 +1168,7 @@ header p{
 
 /* summary */
 #summary{
-    background: linear-gradient(90.8deg, #B3FBC7 0%, #FCFFDA 100%);
+    background: linear-gradient(90.8deg, #FBCDB3 0%, #FCFFDA 100%);
     /* background: #04000E; */
     color:  #04000E;
 }
@@ -1340,7 +1221,7 @@ header p{
     margin-top: 12rem;
     text-align: left;
     background-image: linear-gradient(#FFFAE2, #D4EDFA);
-    border-radius: 22px;
+    border-radius: 18px;
     color: #000000;
     /* border: solid; */
     border-width: thin;
@@ -1404,7 +1285,7 @@ header p{
   .fbutton{
     margin-top: 21px;
     margin-left: 40px;
-    width: 295px;
+    width: 210px;
     height: 45px;
     left: 564.24px;
     top: 275px;
@@ -1681,11 +1562,11 @@ header p{
         padding-right: 6%;
     }
     header h1 {
-        margin-top: 75px;
-        margin-bottom: 2px;
+        margin-top: 60px;
+        margin-bottom: 36px;
         padding-right: 32%;
         font-size: 26px;
-        /* padding-bottom: 72px; */
+        padding-bottom: 72px;
     }
     .chapter1-subtext {
         font-size: 13px;
@@ -1707,6 +1588,7 @@ header p{
     .chapter2-header h1 {
         padding-right: 22%;
         font-size: 24px;
+        margin-bottom: -20px;
     }
     .grid-container{
         padding-right: 0%;
@@ -1774,7 +1656,7 @@ header p{
     }
     .fbutton{
         height: 41px;
-        width: 265px;
+        width: 195px;
         font-size: 15px;
     }
     .summ-heading h2 {
@@ -1812,7 +1694,7 @@ header p{
     }
     .mview-header{
         margin-bottom: 76px;
-        padding-left: 12%;
+        padding-left: 17%;
         font-family: Classica Pro;
         font-style: normal;
         font-weight: normal;
@@ -1905,30 +1787,9 @@ header p{
     .fs3rem{
         font-size: 13px;
     }
-    .test-container{
-        flex-direction: column;
-        height: 376px;
-        width: 950px;
+    .container-carousel{
+        padding-bottom: 90px;
     }
-    .video-list{
-        flex-direction: row;
-        width: 108%;
-        justify-content: space-around;
-        height: 20%;
-        padding: 20px;
-        padding-right: 20px;
-        order: 2;
-    }
-
-    .main-video{
-        order: 1;
-        width: 106%;
-    }
-
-    .test01, .test02, .test03, .test04{
-        padding-top: 21.25% !important;
-        width: 50%;
-    } 
 }
 
 @media all and (max-device-width: 386px){
@@ -1950,7 +1811,6 @@ header p{
     }
     .pqr{
         padding-right: 46% !important;
-        padding-bottom: 70px !important;
     }
     .b-style{
         width: 63%;
