@@ -1542,7 +1542,7 @@ header p{
         /* margin-bottom: 100px; */
     }
     .quote{
-        font-size: 16.1965px;
+        font-size: 15.1965px;
         line-height: 1.35;
     }
     .chap4-subtext{
@@ -1789,6 +1789,15 @@ header p{
     }
     .container-carousel{
         padding-bottom: 44px;
+    }
+    .tpa1{
+        padding-bottom: 8em;
+    }
+    .tpa2{
+        padding-bottom: 5em;
+    }
+    .tpa3{
+        padding-bottom: 6em;
     }
 }
 
