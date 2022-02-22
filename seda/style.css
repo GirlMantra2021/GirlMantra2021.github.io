@@ -1941,6 +1941,23 @@ header p{
     }
     .flex-row2 p {
         font-size: 15px;
+    }
+    .pa1{
+        padding-left: 3em;
+    }
+    .pa2{
+        padding-left: 3em;
+    }
+    .pa3{
+        padding-left: 2em;
+        padding-top: 3%;
+    }
+    .pa4{
+        padding-left: 1.7em;
+    }
+    .pa5{
+        padding-left: 4.2em;
+        padding-bottom: 1em;
     } 
 }
 
@@ -1962,7 +1979,7 @@ header p{
         width: 345px;
     }
     .pqr{
-        padding-right: 46% !important;
+        padding-right: 50% !important;
         padding-bottom: 70px !important;
     }
     .b-style{
@@ -1979,5 +1996,22 @@ header p{
     .chapter2-header h1 {
         padding-right: 14%;
         font-size: 21px;
+    }
+    .pa1{
+        padding-left: 3em;
+    }
+    .pa2{
+        padding-left: 3em;
+    }
+    .pa3{
+        padding-left: 2em;
+        padding-top: 3%;
+    }
+    .pa4{
+        padding-left: 2em;
+    }
+    .pa5{
+        padding-left: 4em;
+        padding-bottom: 1em;
     }
 }
