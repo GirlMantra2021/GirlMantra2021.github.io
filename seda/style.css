@@ -1705,8 +1705,9 @@ header p{
         padding-left: 42px;
     }
     .chapter2-header h1 {
-        padding-right: 22%;
-        font-size: 24px;
+        padding-right: 17%;
+        font-size: 22px;
+        margin-bottom: 0;
     }
     .grid-container{
         padding-right: 0%;
@@ -1965,5 +1966,9 @@ header p{
         width: 231px;
         font-size: 13px;
         margin-left: 35px;
+    }
+    .chapter2-header h1 {
+        padding-right: 14%;
+        font-size: 21px;
     }
 }
