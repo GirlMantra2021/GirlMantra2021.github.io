@@ -1958,4 +1958,12 @@ header p{
     .b-style{
         width: 63%;
     }
+    .mview-header{
+        padding-left: 8%;
+    }
+    .fbutton{
+        width: 231px;
+        font-size: 13px;
+        margin-left: 35px;
+    }
 }
