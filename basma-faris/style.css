@@ -36,7 +36,7 @@ html,body {
     font-family: Classica Pro;
     font-style: italic;
     font-weight: normal;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 130%;
     text-align: left;
     color: rgba(255, 255, 255, 0.9);
@@ -222,7 +222,7 @@ header h1{
     font-family: Classica Pro;
     margin-bottom: 36px;
     padding-bottom: 102px;
-    padding-right: 12%;
+    padding-right: 10%;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
