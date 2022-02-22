@@ -1719,7 +1719,7 @@ header p{
     }
     .grid-item2{
         font-size: 13px;
-        padding-right: 4%;
+        padding-right: 1%;
     }
     .grid-item3{
         font-size: 13px;
@@ -1928,6 +1928,9 @@ header p{
     .test01, .test02, .test03, .test04{
         padding-top: 21.25% !important;
         width: 50%;
+    }
+    .flex-row2 p {
+        font-size: 15px;
     } 
 }
 
