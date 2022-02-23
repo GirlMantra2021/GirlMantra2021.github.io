@@ -92,6 +92,12 @@ html,body {
     font-weight: 100;
 }
 
+.gradient-font{
+  background: -webkit-linear-gradient(90deg,#f5b8ff,#ffbe45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* A/B test  */
 .off{
     display: none;
@@ -913,7 +919,7 @@ header p{
 .chap4-header{
     font-family: Termina;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 28px;
     line-height: 34px;
     color: rgba(255, 255, 255, 0.9);
