@@ -5,6 +5,93 @@ html,body {
     
 }
 
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(fonts/ProximaNova-Regular.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(fonts/ProximaNova-Medium.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(fonts/ProximaNova-Semibold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-BoldItalic.otf);
+    font-style: italic;
+    font-weight:700;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-Italic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-Light.otf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-Regular.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-LightItalic.otf);
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-Demi.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Classica Pro';
+    src: url(fonts/ClassicaPro-DemiItalic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Regular.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Demi.otf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Medium.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Termina';
+    src: url(fonts/Termina-Thin.otf);
+    font-weight: 100;
+}
+
 /* A/B test  */
 .off{
     display: none;
@@ -32,10 +119,10 @@ html,body {
 
 .head-text2{
     margin-top: 5%;
-    font-family: Classica Pro;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 32px;
+    font-family: ProximaNova;
+    /* font-style: italic; */
+    font-weight: 700;
+    font-size: 28px;
     line-height: 130%;
     text-align: left;
     color: rgba(255, 255, 255, 0.9);
@@ -115,86 +202,7 @@ a:hover {
     color: blue;
 }
 
-@font-face {
-    font-family: 'ProximaNova';
-    src: url(fonts/ProximaNova-Regular.otf);
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ProximaNova';
-    src: url(fonts/ProximaNova-Medium.otf);
-    font-weight: 600;
-}
 
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-Bold.otf);
-    font-weight: bold;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-BoldItalic.otf);
-    font-style: italic;
-    font-weight:700;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-Italic.otf);
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-Light.otf);
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-Regular.otf);
-    font-style: normal;
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-LightItalic.otf);
-    font-style: italic;
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-Demi.otf);
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Classica Pro';
-    src: url(fonts/ClassicaPro-DemiItalic.otf);
-    font-style: italic;
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Termina';
-    src: url(fonts/Termina-Regular.otf);
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Termina';
-    src: url(fonts/Termina-Bold.otf);
-    font-weight: bold;
-}
-@font-face {
-    font-family: 'Termina';
-    src: url(fonts/Termina-Demi.otf);
-    font-weight: 600;
-}
-@font-face {
-    font-family: 'Termina';
-    src: url(fonts/Termina-Medium.otf);
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Termina';
-    src: url(fonts/Termina-Thin.otf);
-    font-weight: 100;
-}
 body{
     font-family: 'Inter', 'ProximaNova' , 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
     background: #04000E;
@@ -644,10 +652,10 @@ header p{
 }
 
 .chap3-header h1{
-    font-family: Classica Pro;
+    font-family: Termina;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 32px;
     line-height: 130%;
     text-align: center;
     color: #EDF0F1;
@@ -672,20 +680,20 @@ header p{
 
 .head-text{
     margin-top: 36%;
-    font-family: Classica Pro;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 32px;
+    font-family: ProximaNova;
+    /* font-style: italic; */
+    font-weight: 700;
+    font-size: 28px;
     line-height: 130%;
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
 }
 .pr1{
-    padding-right: 23%;
+    padding-right: 25%;
 }
 
 .pr2{
-    padding-right: 27%;
+    padding-right: 29%;
 }
 
 .pr3{
@@ -694,7 +702,7 @@ header p{
 }
 
 .pr4{
-    padding-right: 42%;
+    padding-right: 41%;
     padding-bottom: 1%;
 }
 
