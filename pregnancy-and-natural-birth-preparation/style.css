@@ -42,7 +42,7 @@ html,body {
 }
 .p-text2{
     padding-right: 30%;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -83,7 +83,7 @@ html,body {
     margin: 20px 10px;
 }
 .fs3rem{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -113,6 +113,17 @@ a:hover {
 }
 .mail:hover{
     color: blue;
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(fonts/ProximaNova-Regular.otf);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(fonts/ProximaNova-Medium.otf);
+    font-weight: 600;
 }
 
 @font-face {
@@ -185,7 +196,7 @@ a:hover {
     font-weight: 100;
 }
 body{
-    font-family: 'Inter', 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
+    font-family: 'Inter', 'ProximaNova' , 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
     background: #04000E;
 }
 
@@ -223,8 +234,8 @@ body{
 header h1{
     font-family: Classica Pro;
     margin-bottom: 36px;
-    padding-bottom: 102px;
-    padding-right: 12%;
+    padding-bottom: 80px;
+    padding-right: 0%;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -235,7 +246,7 @@ header h1{
 }
 
 .h-text{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -263,7 +274,7 @@ header h5{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
@@ -283,7 +294,7 @@ header h5{
 }
 
 .chapter1-subtext{
-    font-family: Inter;
+    font-family: ProximaNova;
     /* font-style: italic; */
     font-weight: normal;
     font-weight: 500;
@@ -297,7 +308,7 @@ header h5{
 }
 
 .m-text{
-    font-family: Inter;
+    font-family: ProximaNova;
     padding-left: 2%;
     padding-right: 7%;
     padding-bottom: 5%;
@@ -315,15 +326,15 @@ header h5{
 }
 
 .header-btn-txt{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+    font-family: ProximaNova;
+    /* font-style: normal; */
+    font-weight: 600;
+    font-size: 18px;
     line-height: 135%;
     
-    letter-spacing: 1.25px;
+    /* letter-spacing: 1.25px; */
     
-    color: rgba(60, 23, 23, 0.9);
+    color: #000;
 }
 
 .header-btn{
@@ -331,19 +342,19 @@ header h5{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px 24px;
+    padding: 14px 24px;
     width: 286px;
-    height: 43px;
+    height: 45px;
     margin-top: 5%;
     background: #FFD426;
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 24px;
     margin-bottom: 20px;
 }
 
 .header-btn:hover{
     /* background: rgba(118,99,18,1); */
-    background: #B3FBC7;
+    background: #BB9A16;
     color: #000;
 }
 .header-btn2{
@@ -351,12 +362,12 @@ header h5{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px 24px;
+    padding: 14px 24px;
     width: 210px;
-    height: 43px;
+    height: 45px;
     margin-top: 5%;
     background: #FFD426;
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 24px;
     margin-bottom: 20px;
 }
@@ -368,7 +379,7 @@ header h5{
 
 .header-btn2:hover{
     /* background: rgba(118,99,18,1); */
-    background: #B3FBC7;
+    background: #BB9A16;
     color: #000;
 }
 
@@ -392,7 +403,7 @@ header p{
 } */
 
 .snapshot-para{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -403,7 +414,7 @@ header p{
 }
 
 .mhero-bottom{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -509,7 +520,7 @@ header p{
 }
 
 .chapter2-header{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -556,9 +567,9 @@ header p{
 }
 
 .grid-item2, .grid-item3{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 145%;
     letter-spacing: 0.5px;
@@ -682,7 +693,7 @@ header p{
 }
 
 .p-text{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -725,7 +736,7 @@ header p{
 }
 
 .scroll-font{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -854,7 +865,7 @@ header p{
   }
 
   .quote{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -895,7 +906,7 @@ header p{
 }
 
 .chap4-subtext{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -945,7 +956,7 @@ header p{
     padding-top: 3%;
     padding-left: 2%;
     padding-right: 7%;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -995,7 +1006,7 @@ header p{
 .course-subtext{
     width: 563px;
     height: 37px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1018,7 +1029,7 @@ header p{
 }
 
 .subcontainer h3{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
@@ -1028,7 +1039,7 @@ header p{
 }
 
 .subcontainer p{
-    font-family: Inter;
+    font-family: ProximaNova;
     padding-bottom: 5%;
     font-style: normal;
     font-weight: normal;
@@ -1085,7 +1096,7 @@ header p{
 
 .bio-section span{
     padding-left: 40px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
@@ -1099,7 +1110,7 @@ header p{
 
 .bio-section h1{
     padding-left: 40px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 33px;
@@ -1111,7 +1122,7 @@ header p{
 .bio-section p{
     padding-left: 40px;
     margin-right: 50px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1158,7 +1169,7 @@ header p{
     padding-top: 15%;
 }
 .faq-text{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1185,7 +1196,7 @@ header p{
 }
 
 .summ-heading h2{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 33px;
@@ -1195,7 +1206,7 @@ header p{
 }
 
 .summ-heading p{
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1238,7 +1249,7 @@ header p{
   .bio-copy{
     padding-left: 40px;
     margin-right: 50px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1252,7 +1263,7 @@ header p{
   
   .bio-lmar{
     padding-left: 40px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 33px;
@@ -1266,7 +1277,7 @@ header p{
   
   .bio-subheader{
     padding-left: 40px;
-    font-family: Inter;
+    font-family: ProximaNova;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
@@ -1613,7 +1624,7 @@ header p{
         margin-bottom: 35px;
     }
     .mview{
-        font-family: Inter;
+        font-family: ProximaNova;
         font-size: 24px;
     }
     .grid-container2 {
