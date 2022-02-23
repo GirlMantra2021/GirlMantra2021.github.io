@@ -111,6 +111,9 @@ a:hover {
     color: #fff;
     /* text-decoration: 0 !important; */
 }
+.mail:hover{
+    color: blue;
+}
 
 @font-face {
     font-family: 'Classica Pro';
