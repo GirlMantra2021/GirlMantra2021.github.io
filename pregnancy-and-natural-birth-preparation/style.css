@@ -162,7 +162,8 @@ html,body {
 }
 .rmore{
     cursor: pointer;
-    color: #D4EDFA;
+    /* color: #D4EDFA; */
+    color: #5757d2;
 }
 /* footer */
 #footer{
@@ -382,9 +383,10 @@ header h5{
     height: 45px;
     margin-top: 5%;
     background: #FFD426;
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     border-radius: 24px;
     margin-bottom: 20px;
+    box-shadow: 0px 2px 12px rgba(0,0,0,20%);
 }
 
 .b-style{
@@ -472,7 +474,8 @@ header p{
     color: rgba(0, 0, 0, 0.9) !important;
 }
 .brand-text2{
-    color: #fff !important;
+    /* color: #fff !important;  can be reverted back to get previous effect*/
+    color: rgba(0, 0, 0, 0.9);
 }
 .navbar
 {
@@ -665,11 +668,23 @@ header p{
 .chap3-header h1{
     font-family: Termina;
     font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
+    /* font-weight: normal; */
+    font-size: 28px;
+    font-weight: 500;
     line-height: 130%;
     text-align: center;
     color: rgba(0, 0, 0, 0.9);
+}
+
+.custom-heading{
+        font-family: Termina;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 130%;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.9);
 }
 
 /* scroll section */
@@ -880,7 +895,8 @@ header p{
     font-family: Termina;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 500;
     line-height: 135%;
     /* or 32px */
     
@@ -983,8 +999,8 @@ header p{
     padding-right: 7%;
     font-family: ProximaNova;
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18.72px;
     line-height: 135%;
     letter-spacing: 0.15px;
     color: rgba(0, 0, 0, 0.9);
@@ -1042,7 +1058,7 @@ header p{
 }
 
 .subcontainer{
-    margin-top: 22%;
+    margin-top: 10%;
     /* padding-left: 10%; */
     display: flex;
     /* flex-wrap: wrap; */
@@ -1070,7 +1086,7 @@ header p{
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    letter-spacing: 0.5px;
+    /* letter-spacing: 0.5px; */
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -1200,9 +1216,16 @@ header p{
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(0, 0, 0, 0.9);
+    color: #564501;
+}
+.accordion-button{
+    color: #564501;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #564501;
+    background-color: #f9de71
+}
 /* summary */
 #summary{
     background: linear-gradient(90.8deg, #F5B8FF 0%, #FFBE45 100%);
@@ -1221,10 +1244,10 @@ header p{
 }
 
 .summ-heading h2{
-    font-family: ProximaNova;
+    font-family: Termina;
     font-style: normal;
     font-weight: 500;
-    font-size: 33px;
+    font-size: 28px;
     line-height: 135%;
     letter-spacing: 0.25px;
     color:  #04000E;
@@ -1245,7 +1268,7 @@ header p{
 }
 
 .points{
-    padding-top: 48px;
+    padding-top: 20px;
     padding-left: 0%;
     line-height: 24px;
 }
@@ -1332,7 +1355,7 @@ header p{
     color: rgba(255, 255, 255, 0.9); ;
   }
   .fbutton:hover{
-      color: #fff;
+      color: #ebcb49;
   }
 /* end  */
 
@@ -1446,11 +1469,11 @@ header p{
     }
     .mview-header{
         margin-bottom: 76px;
-        padding-left: 30%;
-        font-family: Classica Pro;
+        /* padding-left: 30%; */
+        font-family: Termina;
         font-style: normal;
         font-weight: normal;
-        color: #EDF0F1;
+        color: rgba(0, 0, 0, 0.9);
     }
     .head-text{
         font-size: 18px;
