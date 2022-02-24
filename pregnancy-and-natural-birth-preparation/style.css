@@ -1950,9 +1950,15 @@ p {
         font-size: 21px;
     font-weight: 600;
     }
-    .faq{
+    /* .faq{
         padding-left: 0;
         padding-right: 0;
+    } */
+    .faq-section{
+        width: 90%;
+    }
+    .top-margin-fix{
+        margin-top: 42px;
     }
 }
 
