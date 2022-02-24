@@ -515,6 +515,10 @@ header p{
     flex-wrap: wrap;
 }
 
+.section3-mview{
+    padding-left: 5% !important;
+}
+
 .child{
     /* flex: 1 1 200px; */
     margin: 30px;
