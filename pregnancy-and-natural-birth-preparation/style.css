@@ -131,7 +131,7 @@ html,body {
     font-size: 28px;
     line-height: 130%;
     text-align: left;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 .p-text2{
     padding-right: 30%;
@@ -141,7 +141,7 @@ html,body {
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
  /* end  */
 #more {display: none;}
@@ -211,7 +211,7 @@ a:hover {
 
 body{
     font-family: 'Inter', 'ProximaNova' , 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
-    background: #04000E;
+    background: #FFEEDF;
 }
 
 #wrapper{
@@ -235,7 +235,7 @@ body{
 /* header */
 #hero{
     /* background-color: #fffbf2; */
-    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.5%, #04000E 0%, #04000E 15.5%);
+    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.5%, #FFEEDF 0%, #FFEEDF 15.5%);
     box-shadow: 4px 0px 36px rgba(49, 49, 49, 0.4);
     /* height: 100vh; */
 }
@@ -331,7 +331,7 @@ header h5{
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .dp{
@@ -523,7 +523,7 @@ header p{
 /* Chapter 2 */
 
 #chap2{
-    background: #04000E;
+    background: #FFEEDF;;
 
 }
 
@@ -546,7 +546,7 @@ header p{
     font-weight: normal;
     font-size: 17px;
     line-height: 150%;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .chapter2-header h1 {
@@ -559,7 +559,7 @@ header p{
     font-weight: 600;
     font-size: 37px;
     line-height: 130%;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     margin-top: 68px;
 }
 
@@ -584,7 +584,7 @@ header p{
     font-size: 20px;
     line-height: 140%;
     padding-right: 20%;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .grid-item2, .grid-item3{
@@ -618,7 +618,7 @@ header p{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 54%;
-    color: #FFF;
+    color: rgba(0, 0, 0, 0.9);
     width: 100%;
     text-align: center;
     z-index: 999;
@@ -654,8 +654,8 @@ header p{
 /* chapter 3 */
 
 #chap3{
-    background: #04000E;
-    color: rgba(255, 255, 255, 0.9);
+    background: #FFEEDF;;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .chap3-header h1{
@@ -665,7 +665,7 @@ header p{
     font-size: 32px;
     line-height: 130%;
     text-align: center;
-    color: #EDF0F1;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 /* scroll section */
@@ -693,7 +693,7 @@ header p{
     font-size: 28px;
     line-height: 130%;
     text-align: center;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 .pr1{
     padding-right: 25%;
@@ -720,7 +720,7 @@ header p{
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .about-pages{
@@ -763,7 +763,7 @@ header p{
     font-size: 15px;
     line-height: 120%;
     text-align: center;
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .effect{
@@ -828,7 +828,7 @@ header p{
 #testimonials
 {
   padding: 25% 5% 7%;
-  background: #04000E;
+  background: #FFEEDF;
 }
 .carousel-item{
     height: 32rem;
@@ -904,8 +904,8 @@ header p{
 /* chapter 4 */
 
 #chap4{
-    background: #04000E;
-    color: rgba(255, 255, 255, 0.9);
+    background: #FFEEDF;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .chap-header{
@@ -923,7 +923,7 @@ header p{
     font-weight: 500;
     font-size: 28px;
     line-height: 34px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .chap4-subtext{
@@ -933,7 +933,7 @@ header p{
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(255, 255, 255,0.9)
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .grid-container2{
@@ -983,7 +983,7 @@ header p{
     font-size: 16px;
     line-height: 135%;
     letter-spacing: 0.15px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .decode-height{
@@ -993,8 +993,8 @@ header p{
 /* chapter 5 */
 
 #course-plan{
-    background: #04000E;
-    color: rgba(255, 255, 255, 0.9);
+    background: #FFEEDF;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .position-course{
@@ -1017,7 +1017,7 @@ header p{
     font-weight: 600;
     font-size: 43px;
     line-height: 130%;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 #bio{
@@ -1033,7 +1033,7 @@ header p{
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
     margin-bottom: 100px;
 }
 
@@ -1056,7 +1056,7 @@ header p{
     font-size: 19px;
     line-height: 135%;
     letter-spacing: 0.15px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .subcontainer p{
@@ -1067,7 +1067,7 @@ header p{
     font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.5px;
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .element{
@@ -1086,7 +1086,7 @@ header p{
 
 /* bio section */
 #bio{
-    background: #04000E;
+    background: #FFEEDF;
     color: rgba(255, 255, 255, 0.9);
 }
 
