@@ -1930,7 +1930,7 @@ p {
         font-size: 13px;
     }
     .mft1, .mft2{
-        padding-bottom: 0;
+        padding-bottom: 24px;
     }
     .grid-text-section3 {
         font-size: 16px;
@@ -1949,6 +1949,10 @@ p {
     .quote-heading{
         font-size: 21px;
     font-weight: 600;
+    }
+    .faq{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -1977,5 +1981,8 @@ p {
     }
     .chapter2-header h1{
         height: 115px;
+    }
+    .mft1, .mft2{
+        padding-bottom: 5px;
     }
 }
