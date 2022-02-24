@@ -1344,7 +1344,7 @@ p {
     text-align: left;
     /* background-image: linear-gradient(#FFFAE2, #D4EDFA); */
     background: #FFF3E9;
-    border-radius: 18px;
+    /* border-radius: 18px; */
     color: #000000;
     /* border: solid; */
     border-width: thin;
