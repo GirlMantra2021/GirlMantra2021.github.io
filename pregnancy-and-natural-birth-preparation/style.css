@@ -1669,7 +1669,7 @@ p {
         padding-left: 119px;
     }
     .course-subtext{
-        margin-bottom: 80px;
+        margin-bottom: 0px;
         padding-left: 119px;
         /* margin-bottom: 100px; */
     }
@@ -1725,7 +1725,7 @@ p {
         padding-left: 42px;
     }
     .chapter2-header h1 {
-        padding-right: 22%;
+        padding-right: 15%;
         font-size: 21px;
     }
     .grid-container{
@@ -1751,8 +1751,9 @@ p {
         margin-bottom: 35px;
     }
     .mview{
-        font-family: ProximaNova;
-        font-size: 24px;
+        font-weight: 600;
+        font-family: 'TERMINA';
+        font-size: 21px;
     }
     .grid-container2 {
         grid-gap: 0px;
@@ -1930,6 +1931,24 @@ p {
     }
     .mft1, .mft2{
         padding-bottom: 0;
+    }
+    .grid-text-section3 {
+        font-size: 16px;
+    }
+    .section3-imgtext-padding em{
+        font-size: 15px;
+    }
+    .section3-body-text{
+        font-size: 14px;
+    }
+    .custom-heading{
+        font-size: 21px;
+    font-weight: 600;
+    padding: 0 4%;
+    }
+    .quote-heading{
+        font-size: 21px;
+    font-weight: 600;
     }
 }
 
