@@ -1019,7 +1019,7 @@ header p{
     grid-template-columns: 400px 400px;
     grid-auto-rows: minmax(400px, auto);
     grid-gap: 140px;
-    grid-row-gap: 42px;
+    grid-row-gap: 80px;
     justify-content: space-around;
     padding-left: 20%;
     padding-right: 20%;
@@ -1448,6 +1448,7 @@ p {
     header h1 {
         font-size: 28px;
         margin-top: 48px;
+        width: auto;
     }
     .b-style {
         width: 32%;
@@ -1576,7 +1577,7 @@ p {
         margin-top: 50px;
     }
     .chapter2-header h1 {
-        font-size: 24px;
+        font-size: 21px;
     }
     .grid-image-m{
         width: 65%;
@@ -1584,7 +1585,7 @@ p {
         height: auto;
     }
     .m-text{
-        padding-right: 30%;
+        padding-right: 0%;
     }
     .chap4-header {
         padding-left: 40px;
@@ -1595,6 +1596,9 @@ p {
     }
     .b-style {
         width: 26%;
+    }
+    .grid-item1{
+        padding-right: 0;
     }
 }
 
@@ -1672,7 +1676,19 @@ p {
     }
 }
 
+@media all and (max-width: 520px){
+    .b-style{
+        width: 41%;
+    }
+    .chap4-header {
+        padding-left: 4% !important;
+    }
+}
+
 @media all and (max-width: 450px){
+    .chap4-header {
+        padding-left: 0% !important;
+    }
     .course-header{
         padding-left: 119px;
     }
@@ -1709,6 +1725,7 @@ p {
         padding-bottom: 72px;
     } */
     header h1 {
+        width: 723px;
         margin-top: 9px;
         margin-bottom: 36px;
         padding-right: 52%;
