@@ -209,6 +209,14 @@ a:hover {
     color: blue;
 }
 
+.mail2{
+    color: #212529;
+}
+
+.mail2:hover{
+    color: #212529;
+}
+
 
 body{
     font-family: 'Inter', 'ProximaNova' , 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
