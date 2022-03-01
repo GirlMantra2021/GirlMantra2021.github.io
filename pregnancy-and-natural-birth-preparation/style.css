@@ -1648,7 +1648,8 @@ p {
     }
     .navbar-nav{
         padding-bottom: 24.5%;
-        background-color: currentColor;
+        /* background-color: currentColor; */
+        background-color: rgb(168, 168, 168);
     }    
 
 }
@@ -1794,11 +1795,12 @@ p {
         padding-left: 26px;
     }
     .chapter2-header h1 {
-        padding-right: 15%;
-        font-size: 21px;
-        height: 100px;
+        padding-right: 10%;
+        font-size: 18px;
+        height: 60px;
     }
     .grid-container{
+        padding-top: 0;
         padding-right: 0%;
         grid-gap: 0px;
         padding-bottom: 200px;
