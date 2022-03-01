@@ -1640,6 +1640,10 @@ p {
     }
     .img-shrink{
         width: min(100%, 70.5rem);
+    }
+    .navbar-nav{
+        padding-bottom: 24.5%;
+        background-color: currentColor;
     }    
 
 }
@@ -1722,12 +1726,15 @@ p {
         padding-left: 0% !important;
     }
     .course-header{
-        padding-left: 119px;
+        padding-left: 99px;
     }
     .course-subtext{
         margin-bottom: 0px;
-        padding-left: 119px;
+        padding-left: 99px;
         /* margin-bottom: 100px; */
+    }
+    .props{
+        margin-left: 47px;
     }
     .quote{
         font-size: 16.1965px;
@@ -1758,8 +1765,8 @@ p {
     } */
     header h1 {
         width: 723px;
-        margin-top: 9px;
-        margin-bottom: 36px;
+        margin-top: -6px;
+        margin-bottom: 28px;
         padding-right: 52%;
         font-size: 22px;
         padding-bottom: 48px;
@@ -1779,7 +1786,7 @@ p {
         font-size: 16px;
     }
     .container-chap2{
-        padding-left: 42px;
+        padding-left: 26px;
     }
     .chapter2-header h1 {
         padding-right: 15%;
@@ -1797,14 +1804,14 @@ p {
     }
     .grid-item2{
         font-size: 13px;
-        padding-right: 4%;
+        padding-right: 0%;
     }
     .grid-item3{
         font-size: 13px;
         padding-right: 4%;
     }
     .chap-header{
-        margin-left: 9%;
+        margin-left: 6%;
         margin-right: 6%;
         margin-bottom: 35px;
     }
@@ -1889,8 +1896,8 @@ p {
     }
     .subcontainer{
         margin-top: 0;
-        padding-top: 30%;
         padding-left: 10%;
+        height: auto;
     }
     .mview-header{
         margin-bottom: 76px;
@@ -1917,7 +1924,7 @@ p {
     }
     .order2{
         order: 2;
-        margin-top: 36%;
+        margin-top: 12%;
         margin-bottom: 50%;
     }
     .m-text{
@@ -1991,7 +1998,7 @@ p {
         padding-bottom: 24px;
     }
     .grid-text-section3 {
-        font-size: 16px;
+        font-size: 17px;
     }
     .section3-imgtext-padding em{
         font-size: 15px;
@@ -2017,6 +2024,12 @@ p {
     }
     .top-margin-fix{
         margin-top: 42px;
+    }
+    .section3-grid{
+        padding: 0 1%;
+    }
+    .bio-sections{
+        width: 90%;
     }
 }
 
