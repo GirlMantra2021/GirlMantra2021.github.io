@@ -1552,9 +1552,9 @@ p {
 }
 @media all and (max-width: 980px) {
     .bio-image{
-        border-radius: 20px 20px 0 0;
+        /* border-radius: 20px 20px 0 0; */
         position: relative;
-        right: 0px;
+        right: 2px;
     }
     .bio-subheader{
         padding-top: 20px;
@@ -2052,15 +2052,22 @@ p {
         width: 345px;
     }
     .pqr{
-        padding-right: 46% !important;
+        padding-right: 49% !important;
     }
     .b-style{
         width: 63%;
     }
     .chapter2-header h1{
         height: 115px;
+        padding-right: 8%;
     }
     .mft1, .mft2{
         padding-bottom: 5px;
+    }
+    .props {
+        margin-left: 65px;
+    }
+    header h1{
+        font-size: 21px;
     }
 }
