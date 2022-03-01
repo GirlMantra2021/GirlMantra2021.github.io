@@ -50,7 +50,7 @@
         <!-- navbar -->
         <div class="container-fluid" id = "title">
             <!-- Nav Bar -->
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id = "title">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id = "title2">
           
               <a class="navbar-brand brand-text" href="https://www.tussle.fit/" id="brand">Tussle.fit</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -107,7 +107,7 @@
         </div>
         <div class="flex-container">
             <div class="child">
-                <p class="snapshot-para">Starts on</p>
+                <p class="snapshot-para" id="point1">Starts on</p>
                 <p class="mhero-bottom">March 19th, 2022</p>
             </div>
             <div class="child">
@@ -438,7 +438,7 @@
             <div class="grid-item0 grid-item06">
                 <img class="grid-image" src="assests/bharti3.webp" loading="lazy" alt="">
                 <p class="grid-text">Pregnancy Discomforts &amp; Remedies</p>
-                <p class="m-text">Learn actionable labor pain management techniques to equip you and your birth partner with different things you can do during labor for pain relief.</p>
+                <p class="m-text m-text-overide">Learn actionable labor pain management techniques to equip you and your birth partner with different things you can do during labor for pain relief.</p>
             </div>
         </div>
         <div class="b-style">
@@ -774,6 +774,27 @@
         // var n2 = document.getElementById('n2');
         var n3 = document.getElementById('n3');
         var brand = document.getElementById('brand');
+        let width2 = screen.width;
+        console.log("width2",width2);
+
+        var navbar = document.getElementById('title2');
+
+        if (width2<500){
+          var waypointNavColor = new Waypoint({
+            element: document.getElementById('point1'),
+            handler: function(direction) {
+            navbar.classList.add('navbar-bg-color');
+            }
+          })
+          var wapointNavRemoveColor = new Waypoint({
+            element: document.getElementById('nav-text2'),
+            handler: function(direction) {
+            navbar.classList.remove('navbar-bg-color');
+            }
+          })
+        }
+
+
         
         function toogleNavClass(){
             n1.classList.remove('fs2rem');

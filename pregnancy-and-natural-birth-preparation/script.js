@@ -98,6 +98,11 @@ function myFunction() {
     window.location = "https://youtube.com/playlist?list=PL_UNwumabFwXn1JXG_kvPkj8DnIX-8639";
   }
 
+  // let width = screen.width;
+  // console.log(width);
+
+
+
   var A = document.querySelector('.A-test');
   var B = document.querySelector('.B-test'); 
 

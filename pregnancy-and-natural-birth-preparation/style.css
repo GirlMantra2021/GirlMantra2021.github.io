@@ -495,6 +495,11 @@ header p{
     padding-right: 2.5em;
     height: 4.2em;
 }
+
+.navbar-bg-color{
+    background-color: antiquewhite;
+}
+
 .brand-text{
     color: rgba(0, 0, 0, 0.9) !important;
 }
@@ -1796,7 +1801,7 @@ p {
     .grid-container{
         padding-right: 0%;
         grid-gap: 0px;
-        padding-bottom: 80px;
+        padding-bottom: 200px;
     }
     .grid-item1{
         padding-right: 0;
@@ -1819,6 +1824,10 @@ p {
         font-weight: 600;
         font-family: 'TERMINA';
         font-size: 21px;
+        text-align: center;
+    }
+    .m-text-overide{
+        margin-bottom: 10px !important;
     }
     .grid-container2 {
         grid-gap: 0px;
@@ -1845,6 +1854,7 @@ p {
     .bio-lmar{
         padding-left: 6px;
         font-size: 24px;
+        padding-top: 40px;
     }
     .abc{
         font-size: 10px !important;
@@ -1877,7 +1887,7 @@ p {
         padding-top: 11px;
         padding-right: 10px;
         padding-left: 10px;
-        font-size: 14px;
+        font-size: 15px;
     }
     .mobile-view{
         display: block;
@@ -1910,7 +1920,7 @@ p {
     .navbar{
         margin-left: -2%;
         margin-right: -2%;
-        background-color: antiquewhite;
+        /* background-color: antiquewhite; */
     }
     .hero-image1{
         position: static;
@@ -1990,7 +2000,10 @@ p {
         margin: 18px 30px;
     }
     .navbar-toggler{
-        background-color: #000;
+        /* background-color: #000; */
+    }
+    .subcontainer h3{
+        font-weight: 600;
     }
     .fs3rem{
         font-size: 13px;
@@ -2031,6 +2044,9 @@ p {
     }
     .bio-sections{
         width: 90%;
+    }
+    .navbar-brand{
+        font-size: 1.2rem;
     }
 }
 
