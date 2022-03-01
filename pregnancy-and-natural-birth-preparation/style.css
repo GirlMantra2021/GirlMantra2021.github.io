@@ -398,7 +398,7 @@ header h5{
 }
 
 .b-style{
-    width: 15.1%; 
+    width: 14.1%; 
     margin: 5% auto;
 }
 
@@ -1511,12 +1511,19 @@ p {
     }
 }
 
+@media all and (max-width: 1380px){
+    .chapter2-header h1 {
+        height: 130px;
+    }
+}
+
 @media all and (max-width: 1304px) {
     .grid-container{
        grid-template-columns: 1fr 1fr;
     }
     .chapter2-header h1 {
         font-size: 27px;
+        height: 130px;
     }
 }
 
@@ -1777,6 +1784,7 @@ p {
     .chapter2-header h1 {
         padding-right: 15%;
         font-size: 21px;
+        height: 100px;
     }
     .grid-container{
         padding-right: 0%;
