@@ -220,7 +220,7 @@ a:hover {
 
 body{
     font-family: 'Inter', 'ProximaNova' , 'Classica Pro', 'Termina', 'Montserrat', sans-serif;
-    background: #FFEEDF;
+    background: #EBFFBD;
 }
 
 #wrapper{
@@ -244,7 +244,7 @@ body{
 /* header */
 #hero{
     /* background-color: #fffbf2; */
-    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.5%, #FFEEDF 0%, #FFEEDF 15.5%);
+    background-image: linear-gradient(#fffbf2 0%, #fffbf2 84.5%, #EBFFBD 0%, #EBFFBD 15.5%);
     box-shadow: 4px 0px 36px rgba(49, 49, 49, 0.4);
     /* height: 100vh; */
 }
@@ -561,7 +561,7 @@ header p{
 /* Chapter 2 */
 
 #chap2{
-    background: #FFEEDF;;
+    background: #EBFFBD;;
 
 }
 
@@ -745,7 +745,7 @@ header p{
 }
 
 #chap3{
-    background: #FFEEDF;;
+    background: #EBFFBD;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -933,7 +933,7 @@ header p{
 {
   /* padding: 25% 5% 7%; */
   padding: 17% 5% 0%;
-  background: #FFEEDF;
+  background: #EBFFBD;
 }
 .crousel1{
     padding-bottom: 140px !important;
@@ -1027,7 +1027,7 @@ header p{
 /* chapter 4 */
 
 #chap4{
-    background: #FFEEDF;
+    background: #EBFFBD;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -1120,7 +1120,7 @@ p {
 /* chapter 5 */
 
 #course-plan{
-    background: #FFEEDF;
+    background: #EBFFBD;
     color: rgba(0, 0, 0, 0.9);
 }
 
@@ -1214,7 +1214,7 @@ p {
 
 /* bio section */
 #bio{
-    background: #FFEEDF;
+    background: #EBFFBD;
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -1789,7 +1789,7 @@ p {
         margin-top: -6px;
         margin-bottom: 28px;
         padding-right: 52%;
-        font-size: 22px;
+        font-size: 18px;
         padding-bottom: 48px;
     }
     .chapter1-subtext {
@@ -1812,7 +1812,18 @@ p {
     .chapter2-header h1 {
         padding-right: 10%;
         font-size: 18px;
-        height: 42px;
+        height: 22px;
+    }
+
+    .pad-bottom{
+        padding-bottom: 35%;
+    }
+
+    .crousel2 {
+        padding-bottom: 52px !important;
+    }
+    .crousel1 {
+        padding-bottom: 114px !important;
     }
     .grid-container{
         padding-top: 0;

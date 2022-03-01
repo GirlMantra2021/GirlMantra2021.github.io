@@ -94,8 +94,8 @@ function myFunction() {
     }
   }
 
-  function redirectYoutube(){
-    window.location = "https://youtube.com/playlist?list=PL_UNwumabFwXn1JXG_kvPkj8DnIX-8639";
+  function redirectWebsite(){
+    window.location = "https://www.basmafaris.com";
   }
 
   // let width = screen.width;
