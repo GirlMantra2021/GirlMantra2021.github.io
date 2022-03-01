@@ -707,7 +707,8 @@ header p{
 .section3-imgtext-padding{
     padding: 24px;
     background: #FFF3E9;
-    width: min(86.5%, 70.5rem);
+    /* width: min(86.5%, 70.5rem); */
+    width: 86.5%;
 }
 
 .section3-grid-item{
@@ -933,6 +934,15 @@ header p{
   padding: 17% 5% 0%;
   background: #FFEEDF;
 }
+.crousel1{
+    padding-bottom: 140px !important;
+}
+.crousel2{
+    padding-bottom: 108px !important;
+}
+.crousel3{
+    padding-bottom: 112px !important;
+}
 .carousel-item{
     height: 32rem;
     /* background: #000; */
@@ -1005,11 +1015,11 @@ header p{
     color: rgba(0, 0, 0, 0.9);
   }
   .mft1{
-    padding-bottom: 33px;
+    padding-bottom: 0;
 
   }
   .mft2{
-    padding-bottom: 33px;
+    padding-bottom: 0;
 
   }
 
@@ -1092,19 +1102,19 @@ p {
 .grid-text{
     padding-top: 3%;
     padding-left: 2%;
-    padding-right: 6%;
+    padding-right: 0%;
     font-family: ProximaNova;
     font-style: normal;
     font-weight: 700;
-    font-size: 22.75px;
+    font-size: 17.75px;
     line-height: 135%;
     letter-spacing: 0.15px;
     color: rgba(0, 0, 0, 0.9);
 }
 
-.decode-height{
+/* .decode-height{
     height: 74% !important;
-}
+} */
 
 /* chapter 5 */
 
@@ -1155,12 +1165,12 @@ p {
 }
 
 .subcontainer{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     /* padding-left: 10%; */
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* align-items: center; */
     width: 600px;
     height: 628px;
@@ -1190,7 +1200,7 @@ p {
 .element{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .props{
