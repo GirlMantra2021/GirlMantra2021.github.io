@@ -708,11 +708,12 @@ header p{
     padding: 24px;
     background: #FFF3E9;
     /* width: min(86.5%, 70.5rem); */
-    width: 86.5%;
+    /* width: 86.5%; */
+    width: 589px;
 }
 
 .section3-grid-item{
-    width: 50%;
+    /* width: 50%; */
 }
 .grid-text-section3{
     font-family: ProximaNova;
