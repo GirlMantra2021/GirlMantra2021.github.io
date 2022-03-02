@@ -1735,9 +1735,7 @@ p {
     .new-line{
         display: block;
     }
-    .new-line2{
-        display: block;
-    }
+    
     #footer{
         padding: 7% 0;
     }
@@ -2105,5 +2103,8 @@ p {
     }
     header h1{
         font-size: 21px;
+    }
+    .new-line2{
+        display: block;
     }
 }
