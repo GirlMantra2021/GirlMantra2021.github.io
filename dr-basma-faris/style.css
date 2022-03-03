@@ -1466,6 +1466,9 @@ p {
   .fbutton:hover{
       color: #ebcb49;
   }
+  .footer-link-margin{
+    margin: 4%;
+  }
 /* end  */
 @media all and (max-width: 1444px){
     .chapter2-header h1{
@@ -1743,6 +1746,16 @@ p {
 }
 
 @media all and (max-width: 450px){
+    .new-line{
+        display: block;
+    }
+    
+    #footer{
+        padding: 7% 0;
+    }
+    .fsize-12{
+        font-size: 12px;
+    }
     .chap4-header {
         padding-left: 0% !important;
     }
@@ -2121,5 +2134,8 @@ p {
     .summ-heading h2 {
         font-size: 18px;
         padding-right: 29px;
+    }
+    .new-line2{
+        display: block;
     }
 }
