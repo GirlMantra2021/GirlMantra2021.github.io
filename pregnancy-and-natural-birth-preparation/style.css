@@ -1456,9 +1456,19 @@ p {
       margin: 4%;
   }
 /* end  */
+@media all and (max-width: 1550px){
+    .chapter2-header h1{
+        height: auto;
+    }
+}
 @media all and (max-width: 1444px){
     .chapter2-header h1{
         font-size: 30px;
+    }
+}
+@media all and (max-width: 1430px){
+    .chapter2-header h1{
+        height: 140px;
     }
 }
 @media all and (max-width: 1294px) {
