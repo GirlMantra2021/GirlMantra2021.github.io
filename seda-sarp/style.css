@@ -1585,6 +1585,9 @@ p {
   .footer-link-margin{
     margin: 4%;
   }
+  .padding-section3{
+      padding: 0 10%;
+  }
 /* end  */
 @media all and (max-width: 1444px){
     .chapter2-header h1{
@@ -2252,6 +2255,9 @@ p {
     .test01, .test02, .test03, .test04{
         padding-top: 21.25% !important;
         width: 50%;
+    }
+    .padding-section3{
+        padding: 0 4%;
     }
 }
 
